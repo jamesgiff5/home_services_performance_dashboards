@@ -1,0 +1,2113 @@
+client_id,zip_code,region_name,tier
+1001,32812,Dover Shores,Standard
+1002,32836,Dr. Phillips,High
+1003,32714,Altamonte Springs,Mid
+1004,32829,Vista Lakes,Standard
+1005,34743,Buenaventura Lakes,Standard
+1006,32819,Universal Area,High
+1007,32829,Vista Lakes,Standard
+1008,32714,Altamonte Springs,Mid
+1009,32750,Longwood,Mid
+1010,32801,Downtown Orlando,High
+1011,32751,Maitland,High
+1012,32765,Oviedo,Mid
+1013,34747,Celebration,Mid
+1014,32808,Pine Hills,Standard
+1015,32805,Paramore,Standard
+1016,32837,Hunter's Creek,Mid
+1017,32804,College Park,High
+1018,32766,Chuluota,Mid
+1019,34787,Winter Garden,High
+1020,34787,Winter Garden,High
+1021,32792,Goldenrod,Mid
+1022,32809,Sky Lake,Standard
+1023,32817,Union Park,Standard
+1024,32804,College Park,High
+1025,32803,Colonialtown,Mid
+1026,32807,Azalea Park,Standard
+1027,32789,Winter Park,High
+1028,32817,Union Park,Standard
+1029,32708,Winter Springs,Mid
+1030,32822,Conway,Standard
+1031,32827,Lake Nona,High
+1032,32828,Waterford Lakes,Mid
+1033,32751,Maitland,High
+1034,32811,Millenia,Standard
+1035,32771,Sanford,Standard
+1036,32824,Meadow Woods,Standard
+1037,32751,Maitland,High
+1038,32703,Apopka,Standard
+1039,32824,Meadow Woods,Standard
+1040,32811,Millenia,Standard
+1041,32835,MetroWest,Mid
+1042,34761,Ocoee,Standard
+1043,32751,Maitland,High
+1044,32810,Lockhart,Standard
+1045,32730,Fern Park,Standard
+1046,32779,Wekiva Springs,High
+1047,32701,Altamonte East,Standard
+1048,32765,Oviedo,Mid
+1049,32714,Altamonte Springs,Mid
+1050,32779,Wekiva Springs,High
+1051,32810,Lockhart,Standard
+1052,32824,Meadow Woods,Standard
+1053,32819,Universal Area,High
+1054,32808,Pine Hills,Standard
+1055,32712,Apopka North,Standard
+1056,32703,Apopka,Standard
+1057,32714,Altamonte Springs,Mid
+1058,32807,Azalea Park,Standard
+1059,32829,Vista Lakes,Standard
+1060,32812,Dover Shores,Standard
+1061,32703,Apopka,Standard
+1062,32771,Sanford,Standard
+1063,32827,Lake Nona,High
+1064,32803,Colonialtown,Mid
+1065,34761,Ocoee,Standard
+1066,32829,Vista Lakes,Standard
+1067,32809,Sky Lake,Standard
+1068,32766,Chuluota,Mid
+1069,32792,Goldenrod,Mid
+1070,32824,Meadow Woods,Standard
+1071,32812,Dover Shores,Standard
+1072,32805,Paramore,Standard
+1073,32779,Wekiva Springs,High
+1074,32807,Azalea Park,Standard
+1075,32827,Lake Nona,High
+1076,32750,Longwood,Mid
+1077,34744,East Kissimmee,Standard
+1078,32766,Chuluota,Mid
+1079,32805,Paramore,Standard
+1080,32808,Pine Hills,Standard
+1081,32730,Fern Park,Standard
+1082,32809,Sky Lake,Standard
+1083,32818,Hiawassee,Standard
+1084,32811,Millenia,Standard
+1085,32805,Paramore,Standard
+1086,32812,Dover Shores,Standard
+1087,32812,Dover Shores,Standard
+1088,32789,Winter Park,High
+1089,32750,Longwood,Mid
+1090,32707,Casselberry,Standard
+1091,32765,Oviedo,Mid
+1092,32804,College Park,High
+1093,32792,Goldenrod,Mid
+1094,32789,Winter Park,High
+1095,32806,SoDo,High
+1096,32805,Paramore,Standard
+1097,34744,East Kissimmee,Standard
+1098,32824,Meadow Woods,Standard
+1099,32809,Sky Lake,Standard
+1100,32821,Seaworld Area,Mid
+1101,32829,Vista Lakes,Standard
+1102,32803,Colonialtown,Mid
+1103,32730,Fern Park,Standard
+1104,32789,Winter Park,High
+1105,32819,Universal Area,High
+1106,32825,East Orlando,Mid
+1107,32827,Lake Nona,High
+1108,32809,Sky Lake,Standard
+1109,32712,Apopka North,Standard
+1110,32822,Conway,Standard
+1111,32811,Millenia,Standard
+1112,32701,Altamonte East,Standard
+1113,32839,Pine Castle,Standard
+1114,32821,Seaworld Area,Mid
+1115,32806,SoDo,High
+1116,32801,Downtown Orlando,High
+1117,32828,Waterford Lakes,Mid
+1118,32810,Lockhart,Standard
+1119,32714,Altamonte Springs,Mid
+1120,34786,Windermere,High
+1121,32817,Union Park,Standard
+1122,32808,Pine Hills,Standard
+1123,32827,Lake Nona,High
+1124,32773,Sanford South,Standard
+1125,32712,Apopka North,Standard
+1126,32804,College Park,High
+1127,34787,Winter Garden,High
+1128,32839,Pine Castle,Standard
+1129,32771,Sanford,Standard
+1130,32828,Waterford Lakes,Mid
+1131,32708,Winter Springs,Mid
+1132,32824,Meadow Woods,Standard
+1133,32701,Altamonte East,Standard
+1134,32811,Millenia,Standard
+1135,34761,Ocoee,Standard
+1136,32773,Sanford South,Standard
+1137,32824,Meadow Woods,Standard
+1138,32803,Colonialtown,Mid
+1139,32806,SoDo,High
+1140,32708,Winter Springs,Mid
+1141,32792,Goldenrod,Mid
+1142,32701,Altamonte East,Standard
+1143,32819,Universal Area,High
+1144,34786,Windermere,High
+1145,32828,Waterford Lakes,Mid
+1146,32730,Fern Park,Standard
+1147,32825,East Orlando,Mid
+1148,32829,Vista Lakes,Standard
+1149,34786,Windermere,High
+1150,32817,Union Park,Standard
+1151,32812,Dover Shores,Standard
+1152,32811,Millenia,Standard
+1153,32712,Apopka North,Standard
+1154,32804,College Park,High
+1155,32829,Vista Lakes,Standard
+1156,34747,Celebration,Mid
+1157,32707,Casselberry,Standard
+1158,34743,Buenaventura Lakes,Standard
+1159,32792,Goldenrod,Mid
+1160,34787,Winter Garden,High
+1161,32766,Chuluota,Mid
+1162,32810,Lockhart,Standard
+1163,34747,Celebration,Mid
+1164,32707,Casselberry,Standard
+1165,32837,Hunter's Creek,Mid
+1166,32824,Meadow Woods,Standard
+1167,32708,Winter Springs,Mid
+1168,32808,Pine Hills,Standard
+1169,32773,Sanford South,Standard
+1170,32827,Lake Nona,High
+1171,32809,Sky Lake,Standard
+1172,32792,Goldenrod,Mid
+1173,34787,Winter Garden,High
+1174,32828,Waterford Lakes,Mid
+1175,32792,Goldenrod,Mid
+1176,34743,Buenaventura Lakes,Standard
+1177,32792,Goldenrod,Mid
+1178,32801,Downtown Orlando,High
+1179,32766,Chuluota,Mid
+1180,32807,Azalea Park,Standard
+1181,32703,Apopka,Standard
+1182,32811,Millenia,Standard
+1183,32707,Casselberry,Standard
+1184,34744,East Kissimmee,Standard
+1185,32708,Winter Springs,Mid
+1186,32807,Azalea Park,Standard
+1187,32730,Fern Park,Standard
+1188,32766,Chuluota,Mid
+1189,32825,East Orlando,Mid
+1190,32817,Union Park,Standard
+1191,32818,Hiawassee,Standard
+1192,32708,Winter Springs,Mid
+1193,32708,Winter Springs,Mid
+1194,32803,Colonialtown,Mid
+1195,32801,Downtown Orlando,High
+1196,34741,Kissimmee,Standard
+1197,34747,Celebration,Mid
+1198,32824,Meadow Woods,Standard
+1199,32806,SoDo,High
+1200,32817,Union Park,Standard
+1201,32765,Oviedo,Mid
+1202,34761,Ocoee,Standard
+1203,32836,Dr. Phillips,High
+1204,32779,Wekiva Springs,High
+1205,32819,Universal Area,High
+1206,32750,Longwood,Mid
+1207,32836,Dr. Phillips,High
+1208,32750,Longwood,Mid
+1209,32801,Downtown Orlando,High
+1210,32803,Colonialtown,Mid
+1211,32817,Union Park,Standard
+1212,32837,Hunter's Creek,Mid
+1213,32805,Paramore,Standard
+1214,32809,Sky Lake,Standard
+1215,32803,Colonialtown,Mid
+1216,34744,East Kissimmee,Standard
+1217,32771,Sanford,Standard
+1218,32818,Hiawassee,Standard
+1219,32821,Seaworld Area,Mid
+1220,32807,Azalea Park,Standard
+1221,32789,Winter Park,High
+1222,32839,Pine Castle,Standard
+1223,32766,Chuluota,Mid
+1224,32818,Hiawassee,Standard
+1225,32837,Hunter's Creek,Mid
+1226,32808,Pine Hills,Standard
+1227,32825,East Orlando,Mid
+1228,32712,Apopka North,Standard
+1229,34744,East Kissimmee,Standard
+1230,32708,Winter Springs,Mid
+1231,32824,Meadow Woods,Standard
+1232,32765,Oviedo,Mid
+1233,32818,Hiawassee,Standard
+1234,32703,Apopka,Standard
+1235,32808,Pine Hills,Standard
+1236,32809,Sky Lake,Standard
+1237,32812,Dover Shores,Standard
+1238,32810,Lockhart,Standard
+1239,32829,Vista Lakes,Standard
+1240,32808,Pine Hills,Standard
+1241,32701,Altamonte East,Standard
+1242,32827,Lake Nona,High
+1243,32766,Chuluota,Mid
+1244,32708,Winter Springs,Mid
+1245,32773,Sanford South,Standard
+1246,32811,Millenia,Standard
+1247,32708,Winter Springs,Mid
+1248,32708,Winter Springs,Mid
+1249,32708,Winter Springs,Mid
+1250,32817,Union Park,Standard
+1251,32808,Pine Hills,Standard
+1252,32766,Chuluota,Mid
+1253,32837,Hunter's Creek,Mid
+1254,32803,Colonialtown,Mid
+1255,32837,Hunter's Creek,Mid
+1256,34787,Winter Garden,High
+1257,32810,Lockhart,Standard
+1258,32712,Apopka North,Standard
+1259,32829,Vista Lakes,Standard
+1260,32808,Pine Hills,Standard
+1261,32701,Altamonte East,Standard
+1262,32837,Hunter's Creek,Mid
+1263,32808,Pine Hills,Standard
+1264,32835,MetroWest,Mid
+1265,32839,Pine Castle,Standard
+1266,32817,Union Park,Standard
+1267,32836,Dr. Phillips,High
+1268,32792,Goldenrod,Mid
+1269,32812,Dover Shores,Standard
+1270,32779,Wekiva Springs,High
+1271,32771,Sanford,Standard
+1272,32805,Paramore,Standard
+1273,34786,Windermere,High
+1274,32824,Meadow Woods,Standard
+1275,32803,Colonialtown,Mid
+1276,32828,Waterford Lakes,Mid
+1277,34743,Buenaventura Lakes,Standard
+1278,32824,Meadow Woods,Standard
+1279,32714,Altamonte Springs,Mid
+1280,32712,Apopka North,Standard
+1281,32835,MetroWest,Mid
+1282,32701,Altamonte East,Standard
+1283,32804,College Park,High
+1284,32829,Vista Lakes,Standard
+1285,32828,Waterford Lakes,Mid
+1286,34741,Kissimmee,Standard
+1287,32806,SoDo,High
+1288,32779,Wekiva Springs,High
+1289,32766,Chuluota,Mid
+1290,34741,Kissimmee,Standard
+1291,32801,Downtown Orlando,High
+1292,32801,Downtown Orlando,High
+1293,34786,Windermere,High
+1294,32751,Maitland,High
+1295,34747,Celebration,Mid
+1296,32812,Dover Shores,Standard
+1297,32829,Vista Lakes,Standard
+1298,34787,Winter Garden,High
+1299,32707,Casselberry,Standard
+1300,34787,Winter Garden,High
+1301,32804,College Park,High
+1302,32825,East Orlando,Mid
+1303,32810,Lockhart,Standard
+1304,34743,Buenaventura Lakes,Standard
+1305,32801,Downtown Orlando,High
+1306,32771,Sanford,Standard
+1307,34747,Celebration,Mid
+1308,32805,Paramore,Standard
+1309,32773,Sanford South,Standard
+1310,32712,Apopka North,Standard
+1311,34787,Winter Garden,High
+1312,32701,Altamonte East,Standard
+1313,32808,Pine Hills,Standard
+1314,32792,Goldenrod,Mid
+1315,32808,Pine Hills,Standard
+1316,34744,East Kissimmee,Standard
+1317,32819,Universal Area,High
+1318,32810,Lockhart,Standard
+1319,34744,East Kissimmee,Standard
+1320,32804,College Park,High
+1321,32837,Hunter's Creek,Mid
+1322,32730,Fern Park,Standard
+1323,32803,Colonialtown,Mid
+1324,32818,Hiawassee,Standard
+1325,32805,Paramore,Standard
+1326,32803,Colonialtown,Mid
+1327,32708,Winter Springs,Mid
+1328,32817,Union Park,Standard
+1329,32801,Downtown Orlando,High
+1330,32824,Meadow Woods,Standard
+1331,32836,Dr. Phillips,High
+1332,34786,Windermere,High
+1333,32821,Seaworld Area,Mid
+1334,32808,Pine Hills,Standard
+1335,32771,Sanford,Standard
+1336,32792,Goldenrod,Mid
+1337,32825,East Orlando,Mid
+1338,32837,Hunter's Creek,Mid
+1339,32789,Winter Park,High
+1340,32817,Union Park,Standard
+1341,32837,Hunter's Creek,Mid
+1342,32766,Chuluota,Mid
+1343,32828,Waterford Lakes,Mid
+1344,32751,Maitland,High
+1345,32804,College Park,High
+1346,32839,Pine Castle,Standard
+1347,32836,Dr. Phillips,High
+1348,32766,Chuluota,Mid
+1349,32766,Chuluota,Mid
+1350,32811,Millenia,Standard
+1351,34743,Buenaventura Lakes,Standard
+1352,34744,East Kissimmee,Standard
+1353,32839,Pine Castle,Standard
+1354,32707,Casselberry,Standard
+1355,32771,Sanford,Standard
+1356,32707,Casselberry,Standard
+1357,32812,Dover Shores,Standard
+1358,34747,Celebration,Mid
+1359,34741,Kissimmee,Standard
+1360,32807,Azalea Park,Standard
+1361,34741,Kissimmee,Standard
+1362,32827,Lake Nona,High
+1363,32807,Azalea Park,Standard
+1364,34743,Buenaventura Lakes,Standard
+1365,32766,Chuluota,Mid
+1366,32836,Dr. Phillips,High
+1367,34741,Kissimmee,Standard
+1368,32824,Meadow Woods,Standard
+1369,32712,Apopka North,Standard
+1370,32703,Apopka,Standard
+1371,32751,Maitland,High
+1372,32829,Vista Lakes,Standard
+1373,32818,Hiawassee,Standard
+1374,32817,Union Park,Standard
+1375,34741,Kissimmee,Standard
+1376,32792,Goldenrod,Mid
+1377,32825,East Orlando,Mid
+1378,32801,Downtown Orlando,High
+1379,32804,College Park,High
+1380,32804,College Park,High
+1381,32827,Lake Nona,High
+1382,32789,Winter Park,High
+1383,32821,Seaworld Area,Mid
+1384,32837,Hunter's Creek,Mid
+1385,34741,Kissimmee,Standard
+1386,32839,Pine Castle,Standard
+1387,32828,Waterford Lakes,Mid
+1388,32792,Goldenrod,Mid
+1389,34743,Buenaventura Lakes,Standard
+1390,32805,Paramore,Standard
+1391,32818,Hiawassee,Standard
+1392,32822,Conway,Standard
+1393,32825,East Orlando,Mid
+1394,32821,Seaworld Area,Mid
+1395,32808,Pine Hills,Standard
+1396,32750,Longwood,Mid
+1397,32703,Apopka,Standard
+1398,32708,Winter Springs,Mid
+1399,32712,Apopka North,Standard
+1400,32805,Paramore,Standard
+1401,34747,Celebration,Mid
+1402,32836,Dr. Phillips,High
+1403,32789,Winter Park,High
+1404,32789,Winter Park,High
+1405,32766,Chuluota,Mid
+1406,32818,Hiawassee,Standard
+1407,32828,Waterford Lakes,Mid
+1408,32804,College Park,High
+1409,32810,Lockhart,Standard
+1410,32708,Winter Springs,Mid
+1411,34743,Buenaventura Lakes,Standard
+1412,32714,Altamonte Springs,Mid
+1413,32811,Millenia,Standard
+1414,32810,Lockhart,Standard
+1415,32824,Meadow Woods,Standard
+1416,32805,Paramore,Standard
+1417,32751,Maitland,High
+1418,32714,Altamonte Springs,Mid
+1419,32829,Vista Lakes,Standard
+1420,34741,Kissimmee,Standard
+1421,34761,Ocoee,Standard
+1422,34787,Winter Garden,High
+1423,32771,Sanford,Standard
+1424,32750,Longwood,Mid
+1425,32828,Waterford Lakes,Mid
+1426,32792,Goldenrod,Mid
+1427,32701,Altamonte East,Standard
+1428,32712,Apopka North,Standard
+1429,32703,Apopka,Standard
+1430,32779,Wekiva Springs,High
+1431,32821,Seaworld Area,Mid
+1432,32821,Seaworld Area,Mid
+1433,32750,Longwood,Mid
+1434,32827,Lake Nona,High
+1435,32789,Winter Park,High
+1436,32701,Altamonte East,Standard
+1437,32730,Fern Park,Standard
+1438,32766,Chuluota,Mid
+1439,32817,Union Park,Standard
+1440,32708,Winter Springs,Mid
+1441,32750,Longwood,Mid
+1442,32836,Dr. Phillips,High
+1443,32703,Apopka,Standard
+1444,34747,Celebration,Mid
+1445,32835,MetroWest,Mid
+1446,32824,Meadow Woods,Standard
+1447,32701,Altamonte East,Standard
+1448,32810,Lockhart,Standard
+1449,34744,East Kissimmee,Standard
+1450,32804,College Park,High
+1451,34761,Ocoee,Standard
+1452,32822,Conway,Standard
+1453,32766,Chuluota,Mid
+1454,32809,Sky Lake,Standard
+1455,34761,Ocoee,Standard
+1456,32773,Sanford South,Standard
+1457,32829,Vista Lakes,Standard
+1458,32751,Maitland,High
+1459,32829,Vista Lakes,Standard
+1460,32811,Millenia,Standard
+1461,32825,East Orlando,Mid
+1462,32730,Fern Park,Standard
+1463,32822,Conway,Standard
+1464,34787,Winter Garden,High
+1465,32751,Maitland,High
+1466,32806,SoDo,High
+1467,32828,Waterford Lakes,Mid
+1468,32828,Waterford Lakes,Mid
+1469,32821,Seaworld Area,Mid
+1470,32773,Sanford South,Standard
+1471,32822,Conway,Standard
+1472,32701,Altamonte East,Standard
+1473,32819,Universal Area,High
+1474,32808,Pine Hills,Standard
+1475,32812,Dover Shores,Standard
+1476,32825,East Orlando,Mid
+1477,32821,Seaworld Area,Mid
+1478,32837,Hunter's Creek,Mid
+1479,32751,Maitland,High
+1480,32751,Maitland,High
+1481,32807,Azalea Park,Standard
+1482,32808,Pine Hills,Standard
+1483,32810,Lockhart,Standard
+1484,32801,Downtown Orlando,High
+1485,34744,East Kissimmee,Standard
+1486,32803,Colonialtown,Mid
+1487,34761,Ocoee,Standard
+1488,32806,SoDo,High
+1489,32836,Dr. Phillips,High
+1490,32839,Pine Castle,Standard
+1491,32835,MetroWest,Mid
+1492,32811,Millenia,Standard
+1493,32803,Colonialtown,Mid
+1494,32765,Oviedo,Mid
+1495,32801,Downtown Orlando,High
+1496,32821,Seaworld Area,Mid
+1497,32807,Azalea Park,Standard
+1498,32779,Wekiva Springs,High
+1499,34743,Buenaventura Lakes,Standard
+1500,32825,East Orlando,Mid
+1501,32824,Meadow Woods,Standard
+1502,32836,Dr. Phillips,High
+1503,32805,Paramore,Standard
+1504,32821,Seaworld Area,Mid
+1505,34786,Windermere,High
+1506,32810,Lockhart,Standard
+1507,32836,Dr. Phillips,High
+1508,32707,Casselberry,Standard
+1509,32714,Altamonte Springs,Mid
+1510,32750,Longwood,Mid
+1511,32812,Dover Shores,Standard
+1512,32792,Goldenrod,Mid
+1513,32806,SoDo,High
+1514,32836,Dr. Phillips,High
+1515,32825,East Orlando,Mid
+1516,32792,Goldenrod,Mid
+1517,32811,Millenia,Standard
+1518,32751,Maitland,High
+1519,32701,Altamonte East,Standard
+1520,32808,Pine Hills,Standard
+1521,32811,Millenia,Standard
+1522,32773,Sanford South,Standard
+1523,32808,Pine Hills,Standard
+1524,32765,Oviedo,Mid
+1525,32811,Millenia,Standard
+1526,32825,East Orlando,Mid
+1527,32701,Altamonte East,Standard
+1528,32803,Colonialtown,Mid
+1529,32812,Dover Shores,Standard
+1530,32803,Colonialtown,Mid
+1531,32837,Hunter's Creek,Mid
+1532,34761,Ocoee,Standard
+1533,32703,Apopka,Standard
+1534,32837,Hunter's Creek,Mid
+1535,32824,Meadow Woods,Standard
+1536,32773,Sanford South,Standard
+1537,34786,Windermere,High
+1538,32805,Paramore,Standard
+1539,32806,SoDo,High
+1540,32829,Vista Lakes,Standard
+1541,32803,Colonialtown,Mid
+1542,34786,Windermere,High
+1543,32829,Vista Lakes,Standard
+1544,32792,Goldenrod,Mid
+1545,32803,Colonialtown,Mid
+1546,32839,Pine Castle,Standard
+1547,32808,Pine Hills,Standard
+1548,32708,Winter Springs,Mid
+1549,32821,Seaworld Area,Mid
+1550,32812,Dover Shores,Standard
+1551,32730,Fern Park,Standard
+1552,32839,Pine Castle,Standard
+1553,32771,Sanford,Standard
+1554,32751,Maitland,High
+1555,32812,Dover Shores,Standard
+1556,32730,Fern Park,Standard
+1557,32818,Hiawassee,Standard
+1558,32808,Pine Hills,Standard
+1559,32766,Chuluota,Mid
+1560,32703,Apopka,Standard
+1561,32808,Pine Hills,Standard
+1562,32829,Vista Lakes,Standard
+1563,32804,College Park,High
+1564,34761,Ocoee,Standard
+1565,32708,Winter Springs,Mid
+1566,32810,Lockhart,Standard
+1567,32822,Conway,Standard
+1568,32801,Downtown Orlando,High
+1569,32803,Colonialtown,Mid
+1570,32819,Universal Area,High
+1571,32825,East Orlando,Mid
+1572,32801,Downtown Orlando,High
+1573,32806,SoDo,High
+1574,32808,Pine Hills,Standard
+1575,32839,Pine Castle,Standard
+1576,32801,Downtown Orlando,High
+1577,32708,Winter Springs,Mid
+1578,32708,Winter Springs,Mid
+1579,32811,Millenia,Standard
+1580,32804,College Park,High
+1581,34743,Buenaventura Lakes,Standard
+1582,32827,Lake Nona,High
+1583,32812,Dover Shores,Standard
+1584,32806,SoDo,High
+1585,32730,Fern Park,Standard
+1586,32806,SoDo,High
+1587,32779,Wekiva Springs,High
+1588,32818,Hiawassee,Standard
+1589,32801,Downtown Orlando,High
+1590,32701,Altamonte East,Standard
+1591,32789,Winter Park,High
+1592,32750,Longwood,Mid
+1593,32819,Universal Area,High
+1594,32839,Pine Castle,Standard
+1595,32837,Hunter's Creek,Mid
+1596,34741,Kissimmee,Standard
+1597,32714,Altamonte Springs,Mid
+1598,32835,MetroWest,Mid
+1599,32837,Hunter's Creek,Mid
+1600,32808,Pine Hills,Standard
+1601,32837,Hunter's Creek,Mid
+1602,32817,Union Park,Standard
+1603,32789,Winter Park,High
+1604,32751,Maitland,High
+1605,32779,Wekiva Springs,High
+1606,32836,Dr. Phillips,High
+1607,32701,Altamonte East,Standard
+1608,32839,Pine Castle,Standard
+1609,32712,Apopka North,Standard
+1610,34747,Celebration,Mid
+1611,32824,Meadow Woods,Standard
+1612,32835,MetroWest,Mid
+1613,32827,Lake Nona,High
+1614,32792,Goldenrod,Mid
+1615,32818,Hiawassee,Standard
+1616,32807,Azalea Park,Standard
+1617,34787,Winter Garden,High
+1618,34741,Kissimmee,Standard
+1619,32805,Paramore,Standard
+1620,34786,Windermere,High
+1621,32712,Apopka North,Standard
+1622,32808,Pine Hills,Standard
+1623,34761,Ocoee,Standard
+1624,34747,Celebration,Mid
+1625,32836,Dr. Phillips,High
+1626,32708,Winter Springs,Mid
+1627,32809,Sky Lake,Standard
+1628,32829,Vista Lakes,Standard
+1629,34787,Winter Garden,High
+1630,34787,Winter Garden,High
+1631,32819,Universal Area,High
+1632,32807,Azalea Park,Standard
+1633,32836,Dr. Phillips,High
+1634,32773,Sanford South,Standard
+1635,32804,College Park,High
+1636,32837,Hunter's Creek,Mid
+1637,32809,Sky Lake,Standard
+1638,32819,Universal Area,High
+1639,32837,Hunter's Creek,Mid
+1640,32824,Meadow Woods,Standard
+1641,32792,Goldenrod,Mid
+1642,32792,Goldenrod,Mid
+1643,32807,Azalea Park,Standard
+1644,32824,Meadow Woods,Standard
+1645,32771,Sanford,Standard
+1646,32804,College Park,High
+1647,32828,Waterford Lakes,Mid
+1648,34786,Windermere,High
+1649,32822,Conway,Standard
+1650,32808,Pine Hills,Standard
+1651,32707,Casselberry,Standard
+1652,32812,Dover Shores,Standard
+1653,32789,Winter Park,High
+1654,32779,Wekiva Springs,High
+1655,32835,MetroWest,Mid
+1656,32819,Universal Area,High
+1657,32708,Winter Springs,Mid
+1658,32811,Millenia,Standard
+1659,34786,Windermere,High
+1660,32839,Pine Castle,Standard
+1661,32765,Oviedo,Mid
+1662,34743,Buenaventura Lakes,Standard
+1663,32771,Sanford,Standard
+1664,32765,Oviedo,Mid
+1665,34744,East Kissimmee,Standard
+1666,32707,Casselberry,Standard
+1667,32765,Oviedo,Mid
+1668,32765,Oviedo,Mid
+1669,34761,Ocoee,Standard
+1670,32703,Apopka,Standard
+1671,32819,Universal Area,High
+1672,32818,Hiawassee,Standard
+1673,34761,Ocoee,Standard
+1674,32779,Wekiva Springs,High
+1675,32765,Oviedo,Mid
+1676,32751,Maitland,High
+1677,32837,Hunter's Creek,Mid
+1678,34741,Kissimmee,Standard
+1679,32789,Winter Park,High
+1680,32806,SoDo,High
+1681,32836,Dr. Phillips,High
+1682,32765,Oviedo,Mid
+1683,32821,Seaworld Area,Mid
+1684,32789,Winter Park,High
+1685,34741,Kissimmee,Standard
+1686,32766,Chuluota,Mid
+1687,32817,Union Park,Standard
+1688,32810,Lockhart,Standard
+1689,32821,Seaworld Area,Mid
+1690,32839,Pine Castle,Standard
+1691,34761,Ocoee,Standard
+1692,32839,Pine Castle,Standard
+1693,32792,Goldenrod,Mid
+1694,32803,Colonialtown,Mid
+1695,32789,Winter Park,High
+1696,32817,Union Park,Standard
+1697,32825,East Orlando,Mid
+1698,32839,Pine Castle,Standard
+1699,32701,Altamonte East,Standard
+1700,34747,Celebration,Mid
+1701,32835,MetroWest,Mid
+1702,32779,Wekiva Springs,High
+1703,32801,Downtown Orlando,High
+1704,32714,Altamonte Springs,Mid
+1705,32766,Chuluota,Mid
+1706,32810,Lockhart,Standard
+1707,32703,Apopka,Standard
+1708,32810,Lockhart,Standard
+1709,32779,Wekiva Springs,High
+1710,32825,East Orlando,Mid
+1711,32828,Waterford Lakes,Mid
+1712,32819,Universal Area,High
+1713,34741,Kissimmee,Standard
+1714,32825,East Orlando,Mid
+1715,34747,Celebration,Mid
+1716,32839,Pine Castle,Standard
+1717,32779,Wekiva Springs,High
+1718,32806,SoDo,High
+1719,32771,Sanford,Standard
+1720,32803,Colonialtown,Mid
+1721,34786,Windermere,High
+1722,32811,Millenia,Standard
+1723,32773,Sanford South,Standard
+1724,32773,Sanford South,Standard
+1725,32822,Conway,Standard
+1726,32819,Universal Area,High
+1727,34786,Windermere,High
+1728,32771,Sanford,Standard
+1729,34761,Ocoee,Standard
+1730,32707,Casselberry,Standard
+1731,32827,Lake Nona,High
+1732,32810,Lockhart,Standard
+1733,34747,Celebration,Mid
+1734,34786,Windermere,High
+1735,32703,Apopka,Standard
+1736,32825,East Orlando,Mid
+1737,32712,Apopka North,Standard
+1738,32766,Chuluota,Mid
+1739,32750,Longwood,Mid
+1740,32701,Altamonte East,Standard
+1741,32803,Colonialtown,Mid
+1742,34747,Celebration,Mid
+1743,32807,Azalea Park,Standard
+1744,32792,Goldenrod,Mid
+1745,32766,Chuluota,Mid
+1746,32809,Sky Lake,Standard
+1747,32804,College Park,High
+1748,32765,Oviedo,Mid
+1749,32810,Lockhart,Standard
+1750,32806,SoDo,High
+1751,32829,Vista Lakes,Standard
+1752,34741,Kissimmee,Standard
+1753,32714,Altamonte Springs,Mid
+1754,32827,Lake Nona,High
+1755,32804,College Park,High
+1756,32821,Seaworld Area,Mid
+1757,32806,SoDo,High
+1758,32804,College Park,High
+1759,32779,Wekiva Springs,High
+1760,32819,Universal Area,High
+1761,34761,Ocoee,Standard
+1762,32789,Winter Park,High
+1763,32801,Downtown Orlando,High
+1764,32714,Altamonte Springs,Mid
+1765,32811,Millenia,Standard
+1766,32701,Altamonte East,Standard
+1767,32809,Sky Lake,Standard
+1768,32807,Azalea Park,Standard
+1769,32835,MetroWest,Mid
+1770,32810,Lockhart,Standard
+1771,32819,Universal Area,High
+1772,32750,Longwood,Mid
+1773,32708,Winter Springs,Mid
+1774,32818,Hiawassee,Standard
+1775,32750,Longwood,Mid
+1776,32839,Pine Castle,Standard
+1777,32805,Paramore,Standard
+1778,32789,Winter Park,High
+1779,34747,Celebration,Mid
+1780,32829,Vista Lakes,Standard
+1781,32839,Pine Castle,Standard
+1782,32792,Goldenrod,Mid
+1783,32817,Union Park,Standard
+1784,32766,Chuluota,Mid
+1785,32835,MetroWest,Mid
+1786,32824,Meadow Woods,Standard
+1787,34741,Kissimmee,Standard
+1788,32771,Sanford,Standard
+1789,32701,Altamonte East,Standard
+1790,32837,Hunter's Creek,Mid
+1791,32821,Seaworld Area,Mid
+1792,32825,East Orlando,Mid
+1793,32819,Universal Area,High
+1794,34747,Celebration,Mid
+1795,34787,Winter Garden,High
+1796,32836,Dr. Phillips,High
+1797,34787,Winter Garden,High
+1798,34786,Windermere,High
+1799,32808,Pine Hills,Standard
+1800,32792,Goldenrod,Mid
+1801,32829,Vista Lakes,Standard
+1802,32766,Chuluota,Mid
+1803,32707,Casselberry,Standard
+1804,32712,Apopka North,Standard
+1805,32835,MetroWest,Mid
+1806,32707,Casselberry,Standard
+1807,32836,Dr. Phillips,High
+1808,34744,East Kissimmee,Standard
+1809,34786,Windermere,High
+1810,32837,Hunter's Creek,Mid
+1811,32730,Fern Park,Standard
+1812,32714,Altamonte Springs,Mid
+1813,32821,Seaworld Area,Mid
+1814,32818,Hiawassee,Standard
+1815,32817,Union Park,Standard
+1816,32712,Apopka North,Standard
+1817,32750,Longwood,Mid
+1818,34743,Buenaventura Lakes,Standard
+1819,32821,Seaworld Area,Mid
+1820,32792,Goldenrod,Mid
+1821,32822,Conway,Standard
+1822,32708,Winter Springs,Mid
+1823,32801,Downtown Orlando,High
+1824,32809,Sky Lake,Standard
+1825,32811,Millenia,Standard
+1826,32803,Colonialtown,Mid
+1827,32701,Altamonte East,Standard
+1828,32707,Casselberry,Standard
+1829,32817,Union Park,Standard
+1830,34743,Buenaventura Lakes,Standard
+1831,32818,Hiawassee,Standard
+1832,34747,Celebration,Mid
+1833,32773,Sanford South,Standard
+1834,32822,Conway,Standard
+1835,32708,Winter Springs,Mid
+1836,32810,Lockhart,Standard
+1837,32821,Seaworld Area,Mid
+1838,32751,Maitland,High
+1839,32751,Maitland,High
+1840,34744,East Kissimmee,Standard
+1841,32828,Waterford Lakes,Mid
+1842,34743,Buenaventura Lakes,Standard
+1843,32707,Casselberry,Standard
+1844,34787,Winter Garden,High
+1845,34743,Buenaventura Lakes,Standard
+1846,32818,Hiawassee,Standard
+1847,32808,Pine Hills,Standard
+1848,32824,Meadow Woods,Standard
+1849,32819,Universal Area,High
+1850,32824,Meadow Woods,Standard
+1851,32712,Apopka North,Standard
+1852,32703,Apopka,Standard
+1853,32801,Downtown Orlando,High
+1854,34743,Buenaventura Lakes,Standard
+1855,32779,Wekiva Springs,High
+1856,32771,Sanford,Standard
+1857,34747,Celebration,Mid
+1858,32730,Fern Park,Standard
+1859,32819,Universal Area,High
+1860,32818,Hiawassee,Standard
+1861,32818,Hiawassee,Standard
+1862,32730,Fern Park,Standard
+1863,32804,College Park,High
+1864,32807,Azalea Park,Standard
+1865,32822,Conway,Standard
+1866,32750,Longwood,Mid
+1867,32829,Vista Lakes,Standard
+1868,32822,Conway,Standard
+1869,32836,Dr. Phillips,High
+1870,32804,College Park,High
+1871,32824,Meadow Woods,Standard
+1872,32812,Dover Shores,Standard
+1873,34786,Windermere,High
+1874,32809,Sky Lake,Standard
+1875,32703,Apopka,Standard
+1876,32730,Fern Park,Standard
+1877,32824,Meadow Woods,Standard
+1878,32701,Altamonte East,Standard
+1879,32803,Colonialtown,Mid
+1880,32839,Pine Castle,Standard
+1881,34744,East Kissimmee,Standard
+1882,34747,Celebration,Mid
+1883,32712,Apopka North,Standard
+1884,32828,Waterford Lakes,Mid
+1885,32708,Winter Springs,Mid
+1886,32821,Seaworld Area,Mid
+1887,32839,Pine Castle,Standard
+1888,34743,Buenaventura Lakes,Standard
+1889,32809,Sky Lake,Standard
+1890,32766,Chuluota,Mid
+1891,32817,Union Park,Standard
+1892,32801,Downtown Orlando,High
+1893,34744,East Kissimmee,Standard
+1894,32836,Dr. Phillips,High
+1895,32803,Colonialtown,Mid
+1896,32835,MetroWest,Mid
+1897,34787,Winter Garden,High
+1898,32712,Apopka North,Standard
+1899,32818,Hiawassee,Standard
+1900,32765,Oviedo,Mid
+1901,32812,Dover Shores,Standard
+1902,32805,Paramore,Standard
+1903,32812,Dover Shores,Standard
+1904,32837,Hunter's Creek,Mid
+1905,32804,College Park,High
+1906,32751,Maitland,High
+1907,32751,Maitland,High
+1908,32819,Universal Area,High
+1909,32751,Maitland,High
+1910,32773,Sanford South,Standard
+1911,32766,Chuluota,Mid
+1912,32808,Pine Hills,Standard
+1913,32708,Winter Springs,Mid
+1914,32730,Fern Park,Standard
+1915,32806,SoDo,High
+1916,34786,Windermere,High
+1917,32730,Fern Park,Standard
+1918,32808,Pine Hills,Standard
+1919,32817,Union Park,Standard
+1920,32751,Maitland,High
+1921,32808,Pine Hills,Standard
+1922,32804,College Park,High
+1923,32818,Hiawassee,Standard
+1924,32801,Downtown Orlando,High
+1925,32835,MetroWest,Mid
+1926,32817,Union Park,Standard
+1927,32809,Sky Lake,Standard
+1928,32825,East Orlando,Mid
+1929,32789,Winter Park,High
+1930,32808,Pine Hills,Standard
+1931,34761,Ocoee,Standard
+1932,32789,Winter Park,High
+1933,32836,Dr. Phillips,High
+1934,32829,Vista Lakes,Standard
+1935,34787,Winter Garden,High
+1936,32804,College Park,High
+1937,32766,Chuluota,Mid
+1938,32821,Seaworld Area,Mid
+1939,32839,Pine Castle,Standard
+1940,32824,Meadow Woods,Standard
+1941,32803,Colonialtown,Mid
+1942,32708,Winter Springs,Mid
+1943,32817,Union Park,Standard
+1944,32751,Maitland,High
+1945,34786,Windermere,High
+1946,34761,Ocoee,Standard
+1947,34787,Winter Garden,High
+1948,32779,Wekiva Springs,High
+1949,32707,Casselberry,Standard
+1950,32839,Pine Castle,Standard
+1951,32806,SoDo,High
+1952,32819,Universal Area,High
+1953,32807,Azalea Park,Standard
+1954,32701,Altamonte East,Standard
+1955,32821,Seaworld Area,Mid
+1956,32811,Millenia,Standard
+1957,32812,Dover Shores,Standard
+1958,32765,Oviedo,Mid
+1959,32779,Wekiva Springs,High
+1960,32701,Altamonte East,Standard
+1961,32750,Longwood,Mid
+1962,32707,Casselberry,Standard
+1963,32837,Hunter's Creek,Mid
+1964,32703,Apopka,Standard
+1965,32712,Apopka North,Standard
+1966,32779,Wekiva Springs,High
+1967,32839,Pine Castle,Standard
+1968,32809,Sky Lake,Standard
+1969,32839,Pine Castle,Standard
+1970,32809,Sky Lake,Standard
+1971,32828,Waterford Lakes,Mid
+1972,32804,College Park,High
+1973,34741,Kissimmee,Standard
+1974,32707,Casselberry,Standard
+1975,32825,East Orlando,Mid
+1976,34743,Buenaventura Lakes,Standard
+1977,32803,Colonialtown,Mid
+1978,34747,Celebration,Mid
+1979,32765,Oviedo,Mid
+1980,32836,Dr. Phillips,High
+1981,32809,Sky Lake,Standard
+1982,32821,Seaworld Area,Mid
+1983,32803,Colonialtown,Mid
+1984,32730,Fern Park,Standard
+1985,32827,Lake Nona,High
+1986,32712,Apopka North,Standard
+1987,32773,Sanford South,Standard
+1988,32771,Sanford,Standard
+1989,32837,Hunter's Creek,Mid
+1990,32829,Vista Lakes,Standard
+1991,32765,Oviedo,Mid
+1992,32828,Waterford Lakes,Mid
+1993,32835,MetroWest,Mid
+1994,32766,Chuluota,Mid
+1995,32701,Altamonte East,Standard
+1996,32839,Pine Castle,Standard
+1997,32701,Altamonte East,Standard
+1998,32712,Apopka North,Standard
+1999,32836,Dr. Phillips,High
+2000,34744,East Kissimmee,Standard
+2001,34743,Buenaventura Lakes,Standard
+2002,32771,Sanford,Standard
+2003,32765,Oviedo,Mid
+2004,32809,Sky Lake,Standard
+2005,32701,Altamonte East,Standard
+2006,32809,Sky Lake,Standard
+2007,34743,Buenaventura Lakes,Standard
+2008,32837,Hunter's Creek,Mid
+2009,32701,Altamonte East,Standard
+2010,32824,Meadow Woods,Standard
+2011,34743,Buenaventura Lakes,Standard
+2012,32819,Universal Area,High
+2013,32806,SoDo,High
+2014,32808,Pine Hills,Standard
+2015,32804,College Park,High
+2016,32804,College Park,High
+2017,32750,Longwood,Mid
+2018,32807,Azalea Park,Standard
+2019,32707,Casselberry,Standard
+2020,32779,Wekiva Springs,High
+2021,32824,Meadow Woods,Standard
+2022,32810,Lockhart,Standard
+2023,32703,Apopka,Standard
+2024,32714,Altamonte Springs,Mid
+2025,32821,Seaworld Area,Mid
+2026,34744,East Kissimmee,Standard
+2027,32829,Vista Lakes,Standard
+2028,32730,Fern Park,Standard
+2029,32789,Winter Park,High
+2030,32765,Oviedo,Mid
+2031,32801,Downtown Orlando,High
+2032,32805,Paramore,Standard
+2033,32836,Dr. Phillips,High
+2034,32751,Maitland,High
+2035,34741,Kissimmee,Standard
+2036,32828,Waterford Lakes,Mid
+2037,32712,Apopka North,Standard
+2038,32824,Meadow Woods,Standard
+2039,32821,Seaworld Area,Mid
+2040,32703,Apopka,Standard
+2041,32809,Sky Lake,Standard
+2042,32808,Pine Hills,Standard
+2043,32801,Downtown Orlando,High
+2044,32750,Longwood,Mid
+2045,34747,Celebration,Mid
+2046,32812,Dover Shores,Standard
+2047,32765,Oviedo,Mid
+2048,32839,Pine Castle,Standard
+2049,32809,Sky Lake,Standard
+2050,34761,Ocoee,Standard
+2051,32824,Meadow Woods,Standard
+2052,32821,Seaworld Area,Mid
+2053,32808,Pine Hills,Standard
+2054,32792,Goldenrod,Mid
+2055,32779,Wekiva Springs,High
+2056,32751,Maitland,High
+2057,34743,Buenaventura Lakes,Standard
+2058,32827,Lake Nona,High
+2059,32766,Chuluota,Mid
+2060,32712,Apopka North,Standard
+2061,34741,Kissimmee,Standard
+2062,32708,Winter Springs,Mid
+2063,32773,Sanford South,Standard
+2064,32811,Millenia,Standard
+2065,32803,Colonialtown,Mid
+2066,32810,Lockhart,Standard
+2067,32827,Lake Nona,High
+2068,32707,Casselberry,Standard
+2069,32766,Chuluota,Mid
+2070,32805,Paramore,Standard
+2071,32807,Azalea Park,Standard
+2072,32819,Universal Area,High
+2073,32803,Colonialtown,Mid
+2074,32829,Vista Lakes,Standard
+2075,32771,Sanford,Standard
+2076,34761,Ocoee,Standard
+2077,32837,Hunter's Creek,Mid
+2078,32773,Sanford South,Standard
+2079,32803,Colonialtown,Mid
+2080,32821,Seaworld Area,Mid
+2081,32806,SoDo,High
+2082,32836,Dr. Phillips,High
+2083,34743,Buenaventura Lakes,Standard
+2084,32808,Pine Hills,Standard
+2085,32773,Sanford South,Standard
+2086,34787,Winter Garden,High
+2087,32828,Waterford Lakes,Mid
+2088,32839,Pine Castle,Standard
+2089,32807,Azalea Park,Standard
+2090,32822,Conway,Standard
+2091,32839,Pine Castle,Standard
+2092,32807,Azalea Park,Standard
+2093,32821,Seaworld Area,Mid
+2094,32839,Pine Castle,Standard
+2095,32818,Hiawassee,Standard
+2096,32822,Conway,Standard
+2097,32835,MetroWest,Mid
+2098,34747,Celebration,Mid
+2099,32789,Winter Park,High
+2100,32810,Lockhart,Standard
+2101,32806,SoDo,High
+2102,32821,Seaworld Area,Mid
+2103,32708,Winter Springs,Mid
+2104,32808,Pine Hills,Standard
+2105,32708,Winter Springs,Mid
+2106,32812,Dover Shores,Standard
+2107,32824,Meadow Woods,Standard
+2108,32801,Downtown Orlando,High
+2109,32828,Waterford Lakes,Mid
+2110,32789,Winter Park,High
+2111,32807,Azalea Park,Standard
+2112,32789,Winter Park,High
+2113,32821,Seaworld Area,Mid
+2114,32818,Hiawassee,Standard
+2115,34761,Ocoee,Standard
+2116,32703,Apopka,Standard
+2117,32789,Winter Park,High
+2118,32819,Universal Area,High
+2119,32803,Colonialtown,Mid
+2120,32806,SoDo,High
+2121,32807,Azalea Park,Standard
+2122,32792,Goldenrod,Mid
+2123,32707,Casselberry,Standard
+2124,32712,Apopka North,Standard
+2125,32806,SoDo,High
+2126,32824,Meadow Woods,Standard
+2127,34787,Winter Garden,High
+2128,34787,Winter Garden,High
+2129,32803,Colonialtown,Mid
+2130,32712,Apopka North,Standard
+2131,32827,Lake Nona,High
+2132,32801,Downtown Orlando,High
+2133,32792,Goldenrod,Mid
+2134,32812,Dover Shores,Standard
+2135,34743,Buenaventura Lakes,Standard
+2136,32825,East Orlando,Mid
+2137,32806,SoDo,High
+2138,32765,Oviedo,Mid
+2139,32766,Chuluota,Mid
+2140,32708,Winter Springs,Mid
+2141,32809,Sky Lake,Standard
+2142,32751,Maitland,High
+2143,34744,East Kissimmee,Standard
+2144,32812,Dover Shores,Standard
+2145,34747,Celebration,Mid
+2146,32811,Millenia,Standard
+2147,32807,Azalea Park,Standard
+2148,32810,Lockhart,Standard
+2149,32821,Seaworld Area,Mid
+2150,32712,Apopka North,Standard
+2151,32792,Goldenrod,Mid
+2152,32701,Altamonte East,Standard
+2153,32779,Wekiva Springs,High
+2154,34743,Buenaventura Lakes,Standard
+2155,32837,Hunter's Creek,Mid
+2156,32810,Lockhart,Standard
+2157,32751,Maitland,High
+2158,32792,Goldenrod,Mid
+2159,32812,Dover Shores,Standard
+2160,32825,East Orlando,Mid
+2161,32803,Colonialtown,Mid
+2162,34747,Celebration,Mid
+2163,32821,Seaworld Area,Mid
+2164,32708,Winter Springs,Mid
+2165,32714,Altamonte Springs,Mid
+2166,32707,Casselberry,Standard
+2167,34744,East Kissimmee,Standard
+2168,32805,Paramore,Standard
+2169,32827,Lake Nona,High
+2170,32703,Apopka,Standard
+2171,32827,Lake Nona,High
+2172,32812,Dover Shores,Standard
+2173,34787,Winter Garden,High
+2174,32714,Altamonte Springs,Mid
+2175,34786,Windermere,High
+2176,32839,Pine Castle,Standard
+2177,32701,Altamonte East,Standard
+2178,32792,Goldenrod,Mid
+2179,32837,Hunter's Creek,Mid
+2180,34743,Buenaventura Lakes,Standard
+2181,34744,East Kissimmee,Standard
+2182,32801,Downtown Orlando,High
+2183,32712,Apopka North,Standard
+2184,32806,SoDo,High
+2185,32804,College Park,High
+2186,32818,Hiawassee,Standard
+2187,32829,Vista Lakes,Standard
+2188,32821,Seaworld Area,Mid
+2189,32828,Waterford Lakes,Mid
+2190,32714,Altamonte Springs,Mid
+2191,32714,Altamonte Springs,Mid
+2192,32827,Lake Nona,High
+2193,34744,East Kissimmee,Standard
+2194,32712,Apopka North,Standard
+2195,32771,Sanford,Standard
+2196,32714,Altamonte Springs,Mid
+2197,34743,Buenaventura Lakes,Standard
+2198,32829,Vista Lakes,Standard
+2199,34744,East Kissimmee,Standard
+2200,34747,Celebration,Mid
+2201,32803,Colonialtown,Mid
+2202,32779,Wekiva Springs,High
+2203,32806,SoDo,High
+2204,32805,Paramore,Standard
+2205,32836,Dr. Phillips,High
+2206,32703,Apopka,Standard
+2207,32825,East Orlando,Mid
+2208,32836,Dr. Phillips,High
+2209,34744,East Kissimmee,Standard
+2210,32703,Apopka,Standard
+2211,32771,Sanford,Standard
+2212,32818,Hiawassee,Standard
+2213,32836,Dr. Phillips,High
+2214,32835,MetroWest,Mid
+2215,32801,Downtown Orlando,High
+2216,32812,Dover Shores,Standard
+2217,32805,Paramore,Standard
+2218,32817,Union Park,Standard
+2219,34786,Windermere,High
+2220,32803,Colonialtown,Mid
+2221,32827,Lake Nona,High
+2222,32707,Casselberry,Standard
+2223,32750,Longwood,Mid
+2224,32766,Chuluota,Mid
+2225,34741,Kissimmee,Standard
+2226,34747,Celebration,Mid
+2227,32779,Wekiva Springs,High
+2228,32824,Meadow Woods,Standard
+2229,32701,Altamonte East,Standard
+2230,32807,Azalea Park,Standard
+2231,32806,SoDo,High
+2232,32812,Dover Shores,Standard
+2233,32828,Waterford Lakes,Mid
+2234,32792,Goldenrod,Mid
+2235,34741,Kissimmee,Standard
+2236,34744,East Kissimmee,Standard
+2237,34761,Ocoee,Standard
+2238,32811,Millenia,Standard
+2239,32821,Seaworld Area,Mid
+2240,34741,Kissimmee,Standard
+2241,34743,Buenaventura Lakes,Standard
+2242,32701,Altamonte East,Standard
+2243,32807,Azalea Park,Standard
+2244,32714,Altamonte Springs,Mid
+2245,32818,Hiawassee,Standard
+2246,32817,Union Park,Standard
+2247,32803,Colonialtown,Mid
+2248,32825,East Orlando,Mid
+2249,34747,Celebration,Mid
+2250,32819,Universal Area,High
+2251,34741,Kissimmee,Standard
+2252,32803,Colonialtown,Mid
+2253,34787,Winter Garden,High
+2254,32701,Altamonte East,Standard
+2255,32703,Apopka,Standard
+2256,32773,Sanford South,Standard
+2257,32806,SoDo,High
+2258,32803,Colonialtown,Mid
+2259,34744,East Kissimmee,Standard
+2260,32714,Altamonte Springs,Mid
+2261,32811,Millenia,Standard
+2262,32817,Union Park,Standard
+2263,32812,Dover Shores,Standard
+2264,32804,College Park,High
+2265,32824,Meadow Woods,Standard
+2266,32807,Azalea Park,Standard
+2267,34761,Ocoee,Standard
+2268,32825,East Orlando,Mid
+2269,32810,Lockhart,Standard
+2270,32827,Lake Nona,High
+2271,32808,Pine Hills,Standard
+2272,32824,Meadow Woods,Standard
+2273,32701,Altamonte East,Standard
+2274,32730,Fern Park,Standard
+2275,32817,Union Park,Standard
+2276,32837,Hunter's Creek,Mid
+2277,34761,Ocoee,Standard
+2278,32811,Millenia,Standard
+2279,32837,Hunter's Creek,Mid
+2280,32708,Winter Springs,Mid
+2281,32766,Chuluota,Mid
+2282,34786,Windermere,High
+2283,32811,Millenia,Standard
+2284,32821,Seaworld Area,Mid
+2285,32803,Colonialtown,Mid
+2286,32792,Goldenrod,Mid
+2287,34787,Winter Garden,High
+2288,32827,Lake Nona,High
+2289,32836,Dr. Phillips,High
+2290,32809,Sky Lake,Standard
+2291,34761,Ocoee,Standard
+2292,32811,Millenia,Standard
+2293,32792,Goldenrod,Mid
+2294,34787,Winter Garden,High
+2295,32801,Downtown Orlando,High
+2296,32803,Colonialtown,Mid
+2297,34747,Celebration,Mid
+2298,32809,Sky Lake,Standard
+2299,32751,Maitland,High
+2300,32821,Seaworld Area,Mid
+2301,32810,Lockhart,Standard
+2302,32751,Maitland,High
+2303,32821,Seaworld Area,Mid
+2304,32817,Union Park,Standard
+2305,32701,Altamonte East,Standard
+2306,32836,Dr. Phillips,High
+2307,34787,Winter Garden,High
+2308,32828,Waterford Lakes,Mid
+2309,32803,Colonialtown,Mid
+2310,32766,Chuluota,Mid
+2311,32812,Dover Shores,Standard
+2312,32707,Casselberry,Standard
+2313,32821,Seaworld Area,Mid
+2314,32810,Lockhart,Standard
+2315,32773,Sanford South,Standard
+2316,34761,Ocoee,Standard
+2317,32818,Hiawassee,Standard
+2318,32801,Downtown Orlando,High
+2319,34786,Windermere,High
+2320,32835,MetroWest,Mid
+2321,32730,Fern Park,Standard
+2322,32829,Vista Lakes,Standard
+2323,32808,Pine Hills,Standard
+2324,32822,Conway,Standard
+2325,32779,Wekiva Springs,High
+2326,34761,Ocoee,Standard
+2327,32839,Pine Castle,Standard
+2328,32827,Lake Nona,High
+2329,32804,College Park,High
+2330,32789,Winter Park,High
+2331,32808,Pine Hills,Standard
+2332,32714,Altamonte Springs,Mid
+2333,32701,Altamonte East,Standard
+2334,32824,Meadow Woods,Standard
+2335,32836,Dr. Phillips,High
+2336,32712,Apopka North,Standard
+2337,32836,Dr. Phillips,High
+2338,32827,Lake Nona,High
+2339,34787,Winter Garden,High
+2340,32807,Azalea Park,Standard
+2341,32829,Vista Lakes,Standard
+2342,32835,MetroWest,Mid
+2343,32805,Paramore,Standard
+2344,32827,Lake Nona,High
+2345,32825,East Orlando,Mid
+2346,32812,Dover Shores,Standard
+2347,32821,Seaworld Area,Mid
+2348,32824,Meadow Woods,Standard
+2349,32810,Lockhart,Standard
+2350,32809,Sky Lake,Standard
+2351,32708,Winter Springs,Mid
+2352,32829,Vista Lakes,Standard
+2353,32730,Fern Park,Standard
+2354,32714,Altamonte Springs,Mid
+2355,34761,Ocoee,Standard
+2356,32766,Chuluota,Mid
+2357,32703,Apopka,Standard
+2358,34761,Ocoee,Standard
+2359,32712,Apopka North,Standard
+2360,32821,Seaworld Area,Mid
+2361,32703,Apopka,Standard
+2362,32812,Dover Shores,Standard
+2363,34744,East Kissimmee,Standard
+2364,32818,Hiawassee,Standard
+2365,32804,College Park,High
+2366,32803,Colonialtown,Mid
+2367,32829,Vista Lakes,Standard
+2368,32773,Sanford South,Standard
+2369,32835,MetroWest,Mid
+2370,32811,Millenia,Standard
+2371,34741,Kissimmee,Standard
+2372,32807,Azalea Park,Standard
+2373,32789,Winter Park,High
+2374,32789,Winter Park,High
+2375,32792,Goldenrod,Mid
+2376,32779,Wekiva Springs,High
+2377,32750,Longwood,Mid
+2378,32822,Conway,Standard
+2379,32824,Meadow Woods,Standard
+2380,34761,Ocoee,Standard
+2381,32730,Fern Park,Standard
+2382,32730,Fern Park,Standard
+2383,32806,SoDo,High
+2384,32765,Oviedo,Mid
+2385,32714,Altamonte Springs,Mid
+2386,32792,Goldenrod,Mid
+2387,32810,Lockhart,Standard
+2388,32750,Longwood,Mid
+2389,32712,Apopka North,Standard
+2390,34747,Celebration,Mid
+2391,32812,Dover Shores,Standard
+2392,32792,Goldenrod,Mid
+2393,34743,Buenaventura Lakes,Standard
+2394,32771,Sanford,Standard
+2395,32730,Fern Park,Standard
+2396,34761,Ocoee,Standard
+2397,32730,Fern Park,Standard
+2398,32804,College Park,High
+2399,34744,East Kissimmee,Standard
+2400,32828,Waterford Lakes,Mid
+2401,32827,Lake Nona,High
+2402,34743,Buenaventura Lakes,Standard
+2403,32789,Winter Park,High
+2404,32839,Pine Castle,Standard
+2405,32703,Apopka,Standard
+2406,32714,Altamonte Springs,Mid
+2407,32801,Downtown Orlando,High
+2408,32750,Longwood,Mid
+2409,32817,Union Park,Standard
+2410,32801,Downtown Orlando,High
+2411,32825,East Orlando,Mid
+2412,32751,Maitland,High
+2413,32766,Chuluota,Mid
+2414,32701,Altamonte East,Standard
+2415,32828,Waterford Lakes,Mid
+2416,32817,Union Park,Standard
+2417,34741,Kissimmee,Standard
+2418,34743,Buenaventura Lakes,Standard
+2419,32789,Winter Park,High
+2420,32821,Seaworld Area,Mid
+2421,32765,Oviedo,Mid
+2422,32712,Apopka North,Standard
+2423,32789,Winter Park,High
+2424,32773,Sanford South,Standard
+2425,32701,Altamonte East,Standard
+2426,32817,Union Park,Standard
+2427,32810,Lockhart,Standard
+2428,32714,Altamonte Springs,Mid
+2429,32805,Paramore,Standard
+2430,32803,Colonialtown,Mid
+2431,32822,Conway,Standard
+2432,32807,Azalea Park,Standard
+2433,32806,SoDo,High
+2434,34744,East Kissimmee,Standard
+2435,34787,Winter Garden,High
+2436,32804,College Park,High
+2437,32805,Paramore,Standard
+2438,32828,Waterford Lakes,Mid
+2439,32811,Millenia,Standard
+2440,34787,Winter Garden,High
+2441,32809,Sky Lake,Standard
+2442,32730,Fern Park,Standard
+2443,32825,East Orlando,Mid
+2444,32836,Dr. Phillips,High
+2445,32811,Millenia,Standard
+2446,32801,Downtown Orlando,High
+2447,32836,Dr. Phillips,High
+2448,32806,SoDo,High
+2449,32771,Sanford,Standard
+2450,34787,Winter Garden,High
+2451,32835,MetroWest,Mid
+2452,32792,Goldenrod,Mid
+2453,34741,Kissimmee,Standard
+2454,32730,Fern Park,Standard
+2455,32835,MetroWest,Mid
+2456,32801,Downtown Orlando,High
+2457,32828,Waterford Lakes,Mid
+2458,32818,Hiawassee,Standard
+2459,32766,Chuluota,Mid
+2460,32765,Oviedo,Mid
+2461,32817,Union Park,Standard
+2462,32765,Oviedo,Mid
+2463,32701,Altamonte East,Standard
+2464,34761,Ocoee,Standard
+2465,34787,Winter Garden,High
+2466,32829,Vista Lakes,Standard
+2467,32779,Wekiva Springs,High
+2468,34747,Celebration,Mid
+2469,34787,Winter Garden,High
+2470,32766,Chuluota,Mid
+2471,34761,Ocoee,Standard
+2472,32835,MetroWest,Mid
+2473,32807,Azalea Park,Standard
+2474,32829,Vista Lakes,Standard
+2475,32812,Dover Shores,Standard
+2476,32730,Fern Park,Standard
+2477,32821,Seaworld Area,Mid
+2478,32730,Fern Park,Standard
+2479,32750,Longwood,Mid
+2480,32803,Colonialtown,Mid
+2481,32827,Lake Nona,High
+2482,32703,Apopka,Standard
+2483,32773,Sanford South,Standard
+2484,32817,Union Park,Standard
+2485,32803,Colonialtown,Mid
+2486,32712,Apopka North,Standard
+2487,32825,East Orlando,Mid
+2488,34786,Windermere,High
+2489,32771,Sanford,Standard
+2490,32817,Union Park,Standard
+2491,32779,Wekiva Springs,High
+2492,32829,Vista Lakes,Standard
+2493,32827,Lake Nona,High
+2494,32811,Millenia,Standard
+2495,32827,Lake Nona,High
+2496,32771,Sanford,Standard
+2497,32837,Hunter's Creek,Mid
+2498,32750,Longwood,Mid
+2499,32773,Sanford South,Standard
+2500,32773,Sanford South,Standard
+2501,32779,Wekiva Springs,High
+2502,32819,Universal Area,High
+2503,32839,Pine Castle,Standard
+2504,32839,Pine Castle,Standard
+2505,34744,East Kissimmee,Standard
+2506,34761,Ocoee,Standard
+2507,32808,Pine Hills,Standard
+2508,32779,Wekiva Springs,High
+2509,32811,Millenia,Standard
+2510,32806,SoDo,High
+2511,34786,Windermere,High
+2512,32817,Union Park,Standard
+2513,32803,Colonialtown,Mid
+2514,32836,Dr. Phillips,High
+2515,32751,Maitland,High
+2516,32829,Vista Lakes,Standard
+2517,32771,Sanford,Standard
+2518,32730,Fern Park,Standard
+2519,32766,Chuluota,Mid
+2520,32812,Dover Shores,Standard
+2521,32804,College Park,High
+2522,34744,East Kissimmee,Standard
+2523,32801,Downtown Orlando,High
+2524,34761,Ocoee,Standard
+2525,32836,Dr. Phillips,High
+2526,32779,Wekiva Springs,High
+2527,32829,Vista Lakes,Standard
+2528,32773,Sanford South,Standard
+2529,32836,Dr. Phillips,High
+2530,32828,Waterford Lakes,Mid
+2531,32822,Conway,Standard
+2532,32822,Conway,Standard
+2533,32771,Sanford,Standard
+2534,32822,Conway,Standard
+2535,32809,Sky Lake,Standard
+2536,34787,Winter Garden,High
+2537,32714,Altamonte Springs,Mid
+2538,32805,Paramore,Standard
+2539,32701,Altamonte East,Standard
+2540,32751,Maitland,High
+2541,32806,SoDo,High
+2542,32819,Universal Area,High
+2543,32818,Hiawassee,Standard
+2544,32807,Azalea Park,Standard
+2545,32779,Wekiva Springs,High
+2546,32789,Winter Park,High
+2547,32810,Lockhart,Standard
+2548,32829,Vista Lakes,Standard
+2549,32771,Sanford,Standard
+2550,32707,Casselberry,Standard
+2551,32712,Apopka North,Standard
+2552,32751,Maitland,High
+2553,32801,Downtown Orlando,High
+2554,34743,Buenaventura Lakes,Standard
+2555,32773,Sanford South,Standard
+2556,32708,Winter Springs,Mid
+2557,32766,Chuluota,Mid
+2558,32708,Winter Springs,Mid
+2559,32825,East Orlando,Mid
+2560,32825,East Orlando,Mid
+2561,32819,Universal Area,High
+2562,32824,Meadow Woods,Standard
+2563,32810,Lockhart,Standard
+2564,32817,Union Park,Standard
+2565,32789,Winter Park,High
+2566,32703,Apopka,Standard
+2567,32839,Pine Castle,Standard
+2568,34761,Ocoee,Standard
+2569,34741,Kissimmee,Standard
+2570,32805,Paramore,Standard
+2571,32821,Seaworld Area,Mid
+2572,32812,Dover Shores,Standard
+2573,32730,Fern Park,Standard
+2574,32818,Hiawassee,Standard
+2575,32801,Downtown Orlando,High
+2576,32701,Altamonte East,Standard
+2577,32708,Winter Springs,Mid
+2578,34786,Windermere,High
+2579,32822,Conway,Standard
+2580,32835,MetroWest,Mid
+2581,32779,Wekiva Springs,High
+2582,34743,Buenaventura Lakes,Standard
+2583,32750,Longwood,Mid
+2584,32829,Vista Lakes,Standard
+2585,34787,Winter Garden,High
+2586,32808,Pine Hills,Standard
+2587,34761,Ocoee,Standard
+2588,32837,Hunter's Creek,Mid
+2589,32779,Wekiva Springs,High
+2590,32808,Pine Hills,Standard
+2591,32771,Sanford,Standard
+2592,32750,Longwood,Mid
+2593,32837,Hunter's Creek,Mid
+2594,32817,Union Park,Standard
+2595,34786,Windermere,High
+2596,32817,Union Park,Standard
+2597,32835,MetroWest,Mid
+2598,32839,Pine Castle,Standard
+2599,32818,Hiawassee,Standard
+2600,32751,Maitland,High
+2601,34743,Buenaventura Lakes,Standard
+2602,32837,Hunter's Creek,Mid
+2603,32807,Azalea Park,Standard
+2604,32765,Oviedo,Mid
+2605,32714,Altamonte Springs,Mid
+2606,34787,Winter Garden,High
+2607,32771,Sanford,Standard
+2608,32765,Oviedo,Mid
+2609,32779,Wekiva Springs,High
+2610,32766,Chuluota,Mid
+2611,32819,Universal Area,High
+2612,32825,East Orlando,Mid
+2613,32707,Casselberry,Standard
+2614,32779,Wekiva Springs,High
+2615,32828,Waterford Lakes,Mid
+2616,32827,Lake Nona,High
+2617,34761,Ocoee,Standard
+2618,32771,Sanford,Standard
+2619,32809,Sky Lake,Standard
+2620,32821,Seaworld Area,Mid
+2621,32707,Casselberry,Standard
+2622,32817,Union Park,Standard
+2623,32792,Goldenrod,Mid
+2624,32708,Winter Springs,Mid
+2625,32822,Conway,Standard
+2626,32804,College Park,High
+2627,32801,Downtown Orlando,High
+2628,32750,Longwood,Mid
+2629,34761,Ocoee,Standard
+2630,32805,Paramore,Standard
+2631,34761,Ocoee,Standard
+2632,32808,Pine Hills,Standard
+2633,32801,Downtown Orlando,High
+2634,32708,Winter Springs,Mid
+2635,32707,Casselberry,Standard
+2636,32807,Azalea Park,Standard
+2637,32822,Conway,Standard
+2638,32765,Oviedo,Mid
+2639,32807,Azalea Park,Standard
+2640,32819,Universal Area,High
+2641,32822,Conway,Standard
+2642,32829,Vista Lakes,Standard
+2643,32811,Millenia,Standard
+2644,32809,Sky Lake,Standard
+2645,32805,Paramore,Standard
+2646,32765,Oviedo,Mid
+2647,32837,Hunter's Creek,Mid
+2648,32789,Winter Park,High
+2649,32779,Wekiva Springs,High
+2650,32804,College Park,High
+2651,32771,Sanford,Standard
+2652,32714,Altamonte Springs,Mid
+2653,32829,Vista Lakes,Standard
+2654,32808,Pine Hills,Standard
+2655,32824,Meadow Woods,Standard
+2656,32821,Seaworld Area,Mid
+2657,34744,East Kissimmee,Standard
+2658,34761,Ocoee,Standard
+2659,32817,Union Park,Standard
+2660,32751,Maitland,High
+2661,32765,Oviedo,Mid
+2662,32809,Sky Lake,Standard
+2663,32708,Winter Springs,Mid
+2664,32801,Downtown Orlando,High
+2665,32708,Winter Springs,Mid
+2666,32712,Apopka North,Standard
+2667,32835,MetroWest,Mid
+2668,34741,Kissimmee,Standard
+2669,34761,Ocoee,Standard
+2670,32835,MetroWest,Mid
+2671,32750,Longwood,Mid
+2672,32821,Seaworld Area,Mid
+2673,32714,Altamonte Springs,Mid
+2674,32828,Waterford Lakes,Mid
+2675,32801,Downtown Orlando,High
+2676,32805,Paramore,Standard
+2677,32829,Vista Lakes,Standard
+2678,34744,East Kissimmee,Standard
+2679,32807,Azalea Park,Standard
+2680,32818,Hiawassee,Standard
+2681,32789,Winter Park,High
+2682,32822,Conway,Standard
+2683,32806,SoDo,High
+2684,32801,Downtown Orlando,High
+2685,32817,Union Park,Standard
+2686,32730,Fern Park,Standard
+2687,32839,Pine Castle,Standard
+2688,34761,Ocoee,Standard
+2689,32766,Chuluota,Mid
+2690,32807,Azalea Park,Standard
+2691,32811,Millenia,Standard
+2692,32714,Altamonte Springs,Mid
+2693,32809,Sky Lake,Standard
+2694,32701,Altamonte East,Standard
+2695,34747,Celebration,Mid
+2696,32792,Goldenrod,Mid
+2697,34743,Buenaventura Lakes,Standard
+2698,34747,Celebration,Mid
+2699,32836,Dr. Phillips,High
+2700,32804,College Park,High
+2701,32819,Universal Area,High
+2702,32821,Seaworld Area,Mid
+2703,32712,Apopka North,Standard
+2704,32808,Pine Hills,Standard
+2705,32837,Hunter's Creek,Mid
+2706,32822,Conway,Standard
+2707,32837,Hunter's Creek,Mid
+2708,32771,Sanford,Standard
+2709,32809,Sky Lake,Standard
+2710,32835,MetroWest,Mid
+2711,32771,Sanford,Standard
+2712,32766,Chuluota,Mid
+2713,32812,Dover Shores,Standard
+2714,32819,Universal Area,High
+2715,34741,Kissimmee,Standard
+2716,32828,Waterford Lakes,Mid
+2717,34761,Ocoee,Standard
+2718,32819,Universal Area,High
+2719,32801,Downtown Orlando,High
+2720,32811,Millenia,Standard
+2721,32825,East Orlando,Mid
+2722,32808,Pine Hills,Standard
+2723,32817,Union Park,Standard
+2724,32829,Vista Lakes,Standard
+2725,32751,Maitland,High
+2726,32751,Maitland,High
+2727,32825,East Orlando,Mid
+2728,32828,Waterford Lakes,Mid
+2729,32751,Maitland,High
+2730,32839,Pine Castle,Standard
+2731,32828,Waterford Lakes,Mid
+2732,32712,Apopka North,Standard
+2733,32829,Vista Lakes,Standard
+2734,32825,East Orlando,Mid
+2735,32807,Azalea Park,Standard
+2736,32836,Dr. Phillips,High
+2737,32836,Dr. Phillips,High
+2738,32714,Altamonte Springs,Mid
+2739,32829,Vista Lakes,Standard
+2740,32824,Meadow Woods,Standard
+2741,32771,Sanford,Standard
+2742,32801,Downtown Orlando,High
+2743,32771,Sanford,Standard
+2744,32817,Union Park,Standard
+2745,32829,Vista Lakes,Standard
+2746,32805,Paramore,Standard
+2747,32701,Altamonte East,Standard
+2748,32789,Winter Park,High
+2749,34747,Celebration,Mid
+2750,34743,Buenaventura Lakes,Standard
+2751,32839,Pine Castle,Standard
+2752,32804,College Park,High
+2753,32808,Pine Hills,Standard
+2754,32771,Sanford,Standard
+2755,32771,Sanford,Standard
+2756,32751,Maitland,High
+2757,32818,Hiawassee,Standard
+2758,32837,Hunter's Creek,Mid
+2759,32707,Casselberry,Standard
+2760,32806,SoDo,High
+2761,32766,Chuluota,Mid
+2762,32817,Union Park,Standard
+2763,32771,Sanford,Standard
+2764,32766,Chuluota,Mid
+2765,34786,Windermere,High
+2766,32818,Hiawassee,Standard
+2767,32779,Wekiva Springs,High
+2768,32837,Hunter's Creek,Mid
+2769,32750,Longwood,Mid
+2770,32714,Altamonte Springs,Mid
+2771,32801,Downtown Orlando,High
+2772,32827,Lake Nona,High
+2773,32824,Meadow Woods,Standard
+2774,32822,Conway,Standard
+2775,32805,Paramore,Standard
+2776,32779,Wekiva Springs,High
+2777,34741,Kissimmee,Standard
+2778,32811,Millenia,Standard
+2779,32750,Longwood,Mid
+2780,32707,Casselberry,Standard
+2781,32804,College Park,High
+2782,32765,Oviedo,Mid
+2783,32806,SoDo,High
+2784,32779,Wekiva Springs,High
+2785,32839,Pine Castle,Standard
+2786,32835,MetroWest,Mid
+2787,32701,Altamonte East,Standard
+2788,32818,Hiawassee,Standard
+2789,32808,Pine Hills,Standard
+2790,32824,Meadow Woods,Standard
+2791,32707,Casselberry,Standard
+2792,32730,Fern Park,Standard
+2793,32789,Winter Park,High
+2794,32701,Altamonte East,Standard
+2795,32801,Downtown Orlando,High
+2796,32821,Seaworld Area,Mid
+2797,32804,College Park,High
+2798,32779,Wekiva Springs,High
+2799,32818,Hiawassee,Standard
+2800,32751,Maitland,High
+2801,32827,Lake Nona,High
+2802,32730,Fern Park,Standard
+2803,34744,East Kissimmee,Standard
+2804,34741,Kissimmee,Standard
+2805,32839,Pine Castle,Standard
+2806,32807,Azalea Park,Standard
+2807,34787,Winter Garden,High
+2808,32765,Oviedo,Mid
+2809,34741,Kissimmee,Standard
+2810,32730,Fern Park,Standard
+2811,32818,Hiawassee,Standard
+2812,32811,Millenia,Standard
+2813,32822,Conway,Standard
+2814,32807,Azalea Park,Standard
+2815,34744,East Kissimmee,Standard
+2816,32822,Conway,Standard
+2817,34743,Buenaventura Lakes,Standard
+2818,32821,Seaworld Area,Mid
+2819,32712,Apopka North,Standard
+2820,32809,Sky Lake,Standard
+2821,34761,Ocoee,Standard
+2822,32806,SoDo,High
+2823,32829,Vista Lakes,Standard
+2824,32819,Universal Area,High
+2825,32810,Lockhart,Standard
+2826,32714,Altamonte Springs,Mid
+2827,32835,MetroWest,Mid
+2828,32803,Colonialtown,Mid
+2829,32771,Sanford,Standard
+2830,32821,Seaworld Area,Mid
+2831,34787,Winter Garden,High
+2832,32828,Waterford Lakes,Mid
+2833,34786,Windermere,High
+2834,32714,Altamonte Springs,Mid
+2835,32822,Conway,Standard
+2836,32708,Winter Springs,Mid
+2837,32712,Apopka North,Standard
+2838,32805,Paramore,Standard
+2839,32773,Sanford South,Standard
+2840,32836,Dr. Phillips,High
+2841,32779,Wekiva Springs,High
+2842,32792,Goldenrod,Mid
+2843,34786,Windermere,High
+2844,32712,Apopka North,Standard
+2845,32839,Pine Castle,Standard
+2846,32805,Paramore,Standard
+2847,32829,Vista Lakes,Standard
+2848,32837,Hunter's Creek,Mid
+2849,32837,Hunter's Creek,Mid
+2850,32708,Winter Springs,Mid
+2851,32751,Maitland,High
+2852,32835,MetroWest,Mid
+2853,32701,Altamonte East,Standard
+2854,32707,Casselberry,Standard
+2855,32804,College Park,High
+2856,32805,Paramore,Standard
+2857,34741,Kissimmee,Standard
+2858,32811,Millenia,Standard
+2859,32825,East Orlando,Mid
+2860,32809,Sky Lake,Standard
+2861,32839,Pine Castle,Standard
+2862,32751,Maitland,High
+2863,32701,Altamonte East,Standard
+2864,32809,Sky Lake,Standard
+2865,32771,Sanford,Standard
+2866,34787,Winter Garden,High
+2867,32810,Lockhart,Standard
+2868,32751,Maitland,High
+2869,32703,Apopka,Standard
+2870,32819,Universal Area,High
+2871,32779,Wekiva Springs,High
+2872,32839,Pine Castle,Standard
+2873,32803,Colonialtown,Mid
+2874,32822,Conway,Standard
+2875,32810,Lockhart,Standard
+2876,32708,Winter Springs,Mid
+2877,32837,Hunter's Creek,Mid
+2878,32803,Colonialtown,Mid
+2879,32714,Altamonte Springs,Mid
+2880,32792,Goldenrod,Mid
+2881,32750,Longwood,Mid
+2882,32819,Universal Area,High
+2883,32803,Colonialtown,Mid
+2884,32714,Altamonte Springs,Mid
+2885,32804,College Park,High
+2886,32792,Goldenrod,Mid
+2887,32829,Vista Lakes,Standard
+2888,34761,Ocoee,Standard
+2889,32836,Dr. Phillips,High
+2890,32765,Oviedo,Mid
+2891,32801,Downtown Orlando,High
+2892,32714,Altamonte Springs,Mid
+2893,32792,Goldenrod,Mid
+2894,32773,Sanford South,Standard
+2895,34744,East Kissimmee,Standard
+2896,32751,Maitland,High
+2897,32766,Chuluota,Mid
+2898,32750,Longwood,Mid
+2899,34747,Celebration,Mid
+2900,34744,East Kissimmee,Standard
+2901,32824,Meadow Woods,Standard
+2902,34743,Buenaventura Lakes,Standard
+2903,32819,Universal Area,High
+2904,32837,Hunter's Creek,Mid
+2905,32821,Seaworld Area,Mid
+2906,34761,Ocoee,Standard
+2907,32819,Universal Area,High
+2908,32810,Lockhart,Standard
+2909,32806,SoDo,High
+2910,32819,Universal Area,High
+2911,32825,East Orlando,Mid
+2912,32835,MetroWest,Mid
+2913,32817,Union Park,Standard
+2914,32810,Lockhart,Standard
+2915,32811,Millenia,Standard
+2916,32827,Lake Nona,High
+2917,34744,East Kissimmee,Standard
+2918,32807,Azalea Park,Standard
+2919,32766,Chuluota,Mid
+2920,32804,College Park,High
+2921,32812,Dover Shores,Standard
+2922,32804,College Park,High
+2923,34761,Ocoee,Standard
+2924,32819,Universal Area,High
+2925,32807,Azalea Park,Standard
+2926,32819,Universal Area,High
+2927,32765,Oviedo,Mid
+2928,32707,Casselberry,Standard
+2929,34786,Windermere,High
+2930,32771,Sanford,Standard
+2931,32835,MetroWest,Mid
+2932,32805,Paramore,Standard
+2933,32779,Wekiva Springs,High
+2934,34744,East Kissimmee,Standard
+2935,32807,Azalea Park,Standard
+2936,32801,Downtown Orlando,High
+2937,32730,Fern Park,Standard
+2938,32821,Seaworld Area,Mid
+2939,32837,Hunter's Creek,Mid
+2940,32779,Wekiva Springs,High
+2941,32808,Pine Hills,Standard
+2942,32836,Dr. Phillips,High
+2943,32712,Apopka North,Standard
+2944,34741,Kissimmee,Standard
+2945,32824,Meadow Woods,Standard
+2946,32789,Winter Park,High
+2947,32839,Pine Castle,Standard
+2948,32810,Lockhart,Standard
+2949,32819,Universal Area,High
+2950,32808,Pine Hills,Standard
+2951,32837,Hunter's Creek,Mid
+2952,32821,Seaworld Area,Mid
+2953,32771,Sanford,Standard
+2954,32806,SoDo,High
+2955,34761,Ocoee,Standard
+2956,32812,Dover Shores,Standard
+2957,32827,Lake Nona,High
+2958,32792,Goldenrod,Mid
+2959,34743,Buenaventura Lakes,Standard
+2960,34744,East Kissimmee,Standard
+2961,32805,Paramore,Standard
+2962,32803,Colonialtown,Mid
+2963,34786,Windermere,High
+2964,32730,Fern Park,Standard
+2965,32751,Maitland,High
+2966,32712,Apopka North,Standard
+2967,32766,Chuluota,Mid
+2968,32712,Apopka North,Standard
+2969,32803,Colonialtown,Mid
+2970,32801,Downtown Orlando,High
+2971,34786,Windermere,High
+2972,34787,Winter Garden,High
+2973,32792,Goldenrod,Mid
+2974,34786,Windermere,High
+2975,32714,Altamonte Springs,Mid
+2976,32809,Sky Lake,Standard
+2977,32828,Waterford Lakes,Mid
+2978,32806,SoDo,High
+2979,32801,Downtown Orlando,High
+2980,32801,Downtown Orlando,High
+2981,34743,Buenaventura Lakes,Standard
+2982,32773,Sanford South,Standard
+2983,32827,Lake Nona,High
+2984,32824,Meadow Woods,Standard
+2985,32708,Winter Springs,Mid
+2986,32828,Waterford Lakes,Mid
+2987,32835,MetroWest,Mid
+2988,32730,Fern Park,Standard
+2989,32771,Sanford,Standard
+2990,32804,College Park,High
+2991,32703,Apopka,Standard
+2992,32751,Maitland,High
+2993,34741,Kissimmee,Standard
+2994,32714,Altamonte Springs,Mid
+2995,32766,Chuluota,Mid
+2996,32712,Apopka North,Standard
+2997,32836,Dr. Phillips,High
+2998,32822,Conway,Standard
+2999,32701,Altamonte East,Standard
+3000,32703,Apopka,Standard
+3001,32714,Altamonte Springs,Mid
+3002,32701,Altamonte East,Standard
+3003,32765,Oviedo,Mid
+3004,32771,Sanford,Standard
+3005,32839,Pine Castle,Standard
+3006,32765,Oviedo,Mid
+3007,34786,Windermere,High
+3008,32751,Maitland,High
+3009,32707,Casselberry,Standard
+3010,32809,Sky Lake,Standard
+3011,34747,Celebration,Mid
+3012,34787,Winter Garden,High
+3013,32837,Hunter's Creek,Mid
+3014,32817,Union Park,Standard
+3015,32708,Winter Springs,Mid
+3016,32837,Hunter's Creek,Mid
+3017,32825,East Orlando,Mid
+3018,32817,Union Park,Standard
+3019,32827,Lake Nona,High
+3020,32839,Pine Castle,Standard
+3021,34744,East Kissimmee,Standard
+3022,34744,East Kissimmee,Standard
+3023,34787,Winter Garden,High
+3024,34787,Winter Garden,High
+3025,32779,Wekiva Springs,High
+3026,32751,Maitland,High
+3027,34787,Winter Garden,High
+3028,32803,Colonialtown,Mid
+3029,34787,Winter Garden,High
+3030,32750,Longwood,Mid
+3031,32827,Lake Nona,High
+3032,34741,Kissimmee,Standard
+3033,32807,Azalea Park,Standard
+3034,32751,Maitland,High
+3035,32821,Seaworld Area,Mid
+3036,32766,Chuluota,Mid
+3037,34786,Windermere,High
+3038,34787,Winter Garden,High
+3039,32701,Altamonte East,Standard
+3040,32829,Vista Lakes,Standard
+3041,32703,Apopka,Standard
+3042,32837,Hunter's Creek,Mid
+3043,32835,MetroWest,Mid
+3044,32836,Dr. Phillips,High
+3045,32821,Seaworld Area,Mid
+3046,32819,Universal Area,High
+3047,34787,Winter Garden,High
+3048,32825,East Orlando,Mid
+3049,34786,Windermere,High
+3050,32801,Downtown Orlando,High
+3051,32751,Maitland,High
+3052,32806,SoDo,High
+3053,32792,Goldenrod,Mid
+3054,32730,Fern Park,Standard
+3055,32708,Winter Springs,Mid
+3056,32789,Winter Park,High
+3057,32811,Millenia,Standard
+3058,32819,Universal Area,High
+3059,32765,Oviedo,Mid
+3060,32805,Paramore,Standard
+3061,32807,Azalea Park,Standard
+3062,32804,College Park,High
+3063,32812,Dover Shores,Standard
+3064,32750,Longwood,Mid
+3065,32703,Apopka,Standard
+3066,32818,Hiawassee,Standard
+3067,32818,Hiawassee,Standard
+3068,34747,Celebration,Mid
+3069,32810,Lockhart,Standard
+3070,32808,Pine Hills,Standard
+3071,32714,Altamonte Springs,Mid
+3072,32771,Sanford,Standard
+3073,32808,Pine Hills,Standard
+3074,32839,Pine Castle,Standard
+3075,32730,Fern Park,Standard
+3076,32829,Vista Lakes,Standard
+3077,32822,Conway,Standard
+3078,32839,Pine Castle,Standard
+3079,32779,Wekiva Springs,High
+3080,32771,Sanford,Standard
+3081,32817,Union Park,Standard
+3082,32701,Altamonte East,Standard
+3083,32824,Meadow Woods,Standard
+3084,32792,Goldenrod,Mid
+3085,32712,Apopka North,Standard
+3086,32712,Apopka North,Standard
+3087,32819,Universal Area,High
+3088,32818,Hiawassee,Standard
+3089,32817,Union Park,Standard
+3090,32773,Sanford South,Standard
+3091,32773,Sanford South,Standard
+3092,32812,Dover Shores,Standard
+3093,32837,Hunter's Creek,Mid
+3094,32714,Altamonte Springs,Mid
+3095,32808,Pine Hills,Standard
+3096,32789,Winter Park,High
+3097,32806,SoDo,High
+3098,32750,Longwood,Mid
+3099,32730,Fern Park,Standard
+3100,32822,Conway,Standard
+3101,32701,Altamonte East,Standard
+3102,32811,Millenia,Standard
+3103,32807,Azalea Park,Standard
+3104,34761,Ocoee,Standard
+3105,32818,Hiawassee,Standard
+3106,32714,Altamonte Springs,Mid
+3107,32839,Pine Castle,Standard
+3108,32825,East Orlando,Mid
+3109,32811,Millenia,Standard
+3110,32789,Winter Park,High
+3111,32806,SoDo,High
+3112,32811,Millenia,Standard
