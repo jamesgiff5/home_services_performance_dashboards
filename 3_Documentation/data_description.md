@@ -1,102 +1,105 @@
-## 📘 Dataset Overview: Synthetic Home Services Data
+# 🧼 Home Services Business Dataset (Synthetic)
 
-This document outlines the structure, logic, and intent of the generated dataset used in the home services business simulation project.
+This dataset simulates a real-world operational environment for a residential home services company based in Central Florida. It includes job records, service-level financials, client geography, and payment behavior—designed for realistic analysis, not just technical demos.
 
----
+## 📄 jobs_v9.csv
 
-### 🗂️ Output Files
+Each row represents a completed job, with aggregated costs and metadata.
 
-| File              | Description                                                                    | Approx. Rows |
-|-------------------|--------------------------------------------------------------------------------|--------------|
-| `jobs.csv`        | One row per completed, cancelled, or rescheduled job                          | ~3,100       |
-| `services.csv`    | One row per service line item within each job (e.g., roof, pavers)            | ~5,400       |
-| `clients.csv`     | Client ID, ZIP, region name, and tier (used to simulate regional targeting)   | ~2,300       |
-| `zip_regions.csv` | Reference table for ZIP codes, region names, and tier classification          | ~40          |
-
----
-
-### 📄 jobs.csv
-
-| Column               | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| `job_id`             | Unique identifier per job                                                   |
-| `job_date`           | Scheduled date (excludes Sundays and major holidays)                        |
-| `client_id`          | Foreign key linking to `clients.csv`                                       |
-| `zip_code`           | ZIP code of job location                                                    |
-| `crew_id`            | Crew assigned (nulls in ~3% of jobs for realism)                        |
-| `job_status`         | Completed / Cancelled / Rescheduled (88% / 8% / 4%)                         |
-| `total_price`        | Quoted price for all services (whole dollars, tier-adjusted)                |
-| `material_cost`      | Sum of materials across all services (nulls in ~5% of jobs)              |
-| `labor_cost`         | Sum of labor costs (nulls in ~3%)                                       |
-| `travel_cost`        | Fixed travel cost per job (nulls in ~3%)                                |
-| `profit`             | `total_price - material - labor - travel`, using safe fallback if null      |
-| `payment_status`     | Paid / Paid Late / Unpaid (80% / 15% / 5%)                                  |
-| `payment_delay_days` | Days late, if applicable (nulls in ~5% of Paid jobs)                     |
-| `num_services`       | Number of services performed within the job                                |
+| Column               | Description                                                              |
+|----------------------|--------------------------------------------------------------------------|
+| `job_id`             | Unique ID for the job                                                    |
+| `job_date`           | Service date (weekdays only, holidays excluded)                          |
+| `client_id`          | FK to clients_v9.csv                                                     |
+| `zip_code`           | ZIP where job was performed                                              |
+| `crew_id`            | Crew assigned (1–4, max 3 jobs per day per crew)                         |
+| `job_status`         | Always 'Completed' (placeholder for future status expansion)             |
+| `total_price`        | Sum of all service prices for this job                                   |
+| `material_cost`      | Combined material costs                                                  |
+| `labor_cost`         | Combined labor costs                                                     |
+| `travel_cost`        | Combined travel costs                                                    |
+| `profit`             | Net profit (total - costs)                                               |
+| `payment_status`     | Paid / Paid Late / Unpaid                                                |
+| `payment_delay_days` | Days late, if applicable (max capped to year-end)                        |
+| `num_services`       | Number of services performed in this job                                 |
 
 ---
 
-### 📄 services.csv
+## 📄 services_v9.csv
 
-| Column          | Description                                                   |
-|------------------|---------------------------------------------------------------|
-| `job_id`         | Foreign key linking to `jobs.csv`                            |
-| `service_type`   | Type of service (e.g., Roof Cleaning, Paver Sealing)         |
-| `price`          | Price quoted for that individual service                     |
-| `material_cost`  | Cost of materials for the service (nulls for small jobs)  |
-| `labor_cost`     | Labor cost (nulls in ~3%)                                 |
-| `travel_cost`    | Travel cost contribution (nulls in ~3%)                  |
-| `service_profit` | Profit for each service based on service price - expenses   |
-| `service_id`     | Unique ID composed of job ID and service type abbreviation   |
+Each row represents an individual service within a job.
 
----
-
-### 📄 clients.csv
-
-| Column          | Description                                      |
-|------------------|--------------------------------------------------|
-| `client_id`      | Unique identifier per client                    |
-| `zip_code`       | ZIP where the client resides                    |
-| `region_name`    | Neighborhood or city (e.g., Lake Nona, Oviedo)  |
-| `region_tier`    | High / Mid / Standard - pricing varies by tier  |
+| Column           | Description                                               |
+|------------------|-----------------------------------------------------------|
+| `job_id`         | FK to jobs_v9.csv                                         |
+| `service_type`   | One of 7 types (e.g., Roof Cleaning, Window Cleaning)     |
+| `price`          | Quoted price for the service                              |
+| `material_cost`  | Materials used (calculated via service-specific % rules)  |
+| `labor_cost`     | Random labor cost ($50–$200)                              |
+| `travel_cost`    | Random travel cost ($10–$30)                              |
+| `service_profit` | Net profit per service                                    |
 
 ---
 
-### 📄 zip_regions.csv
+## 📄 clients_v9.csv
 
-| Column        | Description                                 |
-|----------------|---------------------------------------------|
-| `zip_code`     | ZIP code in service area                   |
-| `region_name`  | Common name for the ZIP (e.g. Windermere)  |
-| `tier`         | Market segment: High / Mid / Standard      |
+Client-level lookup table including geographic targeting dimensions.
 
----
-
-### ⚙️ Data Generation Summary
-
-- Jobs generated between Jan 1, 2023 and Dec 31, 2024  
-- Sundays and major US holidays excluded from job scheduling (to reflect typical residential service schedules)  
-- Job volume simulated daily using a Poisson distribution  
-- Each job assigned 1-4 services, priced by type and ZIP-tier multiplier:  
-  - High ZIPs: +15% price  
-  - Mid ZIPs: +5% price  
-  - These increases simulate larger properties and higher service demands in premium neighborhoods  
-- Service pricing ranges:  
-  - Paver Sealing: $800-$3000  
-  - Roof Cleaning: $300-$1500  
-  - Others: $100-$800  
-- Profit calculated per job using internal cost breakdowns  
-- Nulls injected for realism:  
-  - ~3-5% missing `crew_id`, `payment_delay_days`, `labor_cost`, `travel_cost`, `material_cost`  
-
+| Column         | Description                              |
+|----------------|------------------------------------------|
+| `client_id`    | Unique client ID                         |
+| `zip_code`     | Where client is located                  |
+| `region_name`  | Mapped region name (e.g., Lake Nona)     |
+| `tier`         | Market tier: High / Mid / Standard       |
 
 ---
 
-### 🎯 Why This Matters
-This dataset is engineered to support operational and financial analysis across:
-- Regional pricing and performance
-- Crew workload and capacity
-- Service-level profitability
-- Payment behavior and financial health
+## 📄 zip_regions_v9.csv
 
-Perfect for simulation of real-world dashboards and scenario modeling.
+Reference table used for ZIP → Region → Tier lookup.
+
+| Column        | Description                                |
+|----------------|--------------------------------------------|
+| `zip_code`     | ZIP code in Central Florida                |
+| `region_name`  | Region or neighborhood (marketing label)   |
+| `tier`         | Customer segment: High / Mid / Standard    |
+
+---
+
+## 🧪 Generation Logic Summary (v9)
+
+- **Date range**: Jan 1, 2023 – Dec 31, 2024  
+- **Weekdays only**: Saturdays included, Sundays excluded  
+- **US Holidays excluded**: New Year's, July 4th, Thanksgiving, Christmas  
+- **Job volume**: Poisson-distributed (avg ~5 jobs/day)  
+- **Crew capacity**: Max 3 jobs per crew per day  
+- **Service types**: 7 categories with weighted probabilities  
+- **Payment status**: 85% Paid, 12% Paid Late, 3% Unpaid  
+- **Repeat clients**: ~30% chance per job  
+- **Profit logic**: Explicit material, labor, and travel costs per service
+
+---
+
+## ✅ Suggested Use Cases
+
+- Pricing & margin optimization  
+- Crew workload & ops planning  
+- Late payment modeling  
+- Regional strategy (by ZIP/region tier)
+
+---
+
+## ⚠️ Known Constraints
+
+- No cancellations or reschedules (yet)
+- All jobs are marked as “Completed”
+- No price variation by region tier (no uplift logic implemented)
+- No `service_id` generated in this version
+
+---
+
+## 📌 Version
+
+**generate_dataset_v9.py**  
+Last updated: July 2025  
+Maintainer: [Your Name]
