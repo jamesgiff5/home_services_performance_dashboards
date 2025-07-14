@@ -9,15 +9,17 @@ Before transitioning into data analytics, I ran an exterior cleaning business in
 
 The dashboards and dataset reflect real-world service patterns: seasonal demand, bundling strategy, workload constraints, and customer retention. I built the data from scratch to support decisions that would matter in a real business, like profitability, capacity, and performance over time.
 
-The result is a realistic operations model built to surface insights, not just trends.
+I built a realistic financial and operational dashboard to support smarter decisions around pricing, capacity, and performance.
 
+## Exec Summary
+All revenue and profit figures are based on quoted job values, not actual payments collected. This better reflects pricing strategy, not cash flow accounting.
 
 ## 📊 Dashboards
 
 | Name         | Description                                     | Link |
 |--------------|-------------------------------------------------|------|
-| Financial    | Revenue, cost, profit, payment behavior         | [View →](./dashboards/financial_dashboard/README.md) |
-| Operational  | Crew capacity, job volume, service mix by day   | [View →](./dashboards/operational_dashboard/README.md) |
+| Financial    | Revenue, cost, profit, payment behavior         | [View →](./Financial_Dashboard) |
+| Operational  | Crew capacity, job volume, service mix by day   | [View →](./Operational_Dashboard) |
 
 ---
 
@@ -34,6 +36,28 @@ The result is a realistic operations model built to surface insights, not just t
 
 ---
 
+## 🏗️ How the Data Was Modeled
+
+This project simulates realistic operations and finance flows for a home services business. Core logic was built in Python, with additional reshaping in Power Query. Imperfections (like payment delays and partial cost data) were added intentionally to reflect messy real-world conditions.
+- Costs were modeled using realistic estimates based on my prior field experience.
+- Some cost assumptions (e.g., crew travel) were simplified to prioritize analytical clarity.
+- The dataset reflects job quotes, not accounting ledgers—this aligns with how service businesses forecast ops performance, not just bookkeep.
+
+---
+
+
+
+### ⚠️ Known Limitation (Simulated Data Behavior)
+
+In this simulated dataset, some jobs contain multiple instances of the same service type under a single job_id (e.g., two or three “Paver Sealing” entries). This inflates service-level totals when summed and creates a mismatch between:
+- Job-level KPIs (like total revenue/profit, which use unique job_ids)
+- Service-level visualizations (which can overstate totals due to duplication)
+
+This issue stems from the data generation logic and wouldn’t typically occur in real operational systems, where service entries are cleaner and linked by line-item IDs or timestamps.
+
+*Rather than re-engineering the dataset at this stage, I preserved the structure and clearly documented the behavior. This mirrors the kind of integrity note you’d find in internal dashboards handling imperfect data sources.*
+
+---
 ## 📌 Notes on Versioning
 
 - `generate_dataset_v9.py` produces the base synthetic data as CSVs

@@ -1,6 +1,6 @@
 # 🧼 Home Services Business Dataset (Synthetic)
 
-This dataset simulates a real-world operational environment for a residential home services company based in Central Florida. It includes job records, service-level financials, client geography, and payment behavior—designed for realistic analysis, not just technical demos.
+Two-year dataset modeled after a real home services business. Tracks pricing, costs, payments, and geography across thousands of jobs. Structured to support strategic analysis like pricing optimization, workload balancing, and revenue risk from unpaid work.
 
 ## 📄 jobs_v9.csv
 
@@ -43,26 +43,26 @@ Each row represents an individual service within a job.
 
 ## 📄 clients_v9.csv
 
-Client-level lookup table including geographic targeting dimensions.
+Client-level lookup table including geographic and income segmentation details.
 
 | Column         | Description                              |
 |----------------|------------------------------------------|
 | `client_id`    | Unique client ID                         |
 | `zip_code`     | Where client is located                  |
 | `region_name`  | Mapped region name (e.g., Lake Nona)     |
-| `tier`         | Market tier: High / Mid / Standard       |
+| `tier`         | Income tier: High / Mid / Standard, based on ZIP income |
 
 ---
 
 ## 📄 zip_regions_v9.csv
 
-Reference table used for ZIP → Region → Tier lookup.
+Reference table used for ZIP → Region → Tier lookup based on estimated income.
 
 | Column        | Description                                |
 |----------------|--------------------------------------------|
 | `zip_code`     | ZIP code in Central Florida                |
 | `region_name`  | Region or neighborhood (marketing label)   |
-| `tier`         | Customer segment: High / Mid / Standard    |
+| `tier`         | Income tier: High / Mid / Standard, based on relative household income|
 
 ---
 
@@ -85,7 +85,7 @@ Reference table used for ZIP → Region → Tier lookup.
 - Pricing & margin optimization  
 - Crew workload & ops planning  
 - Late payment modeling  
-- Regional strategy (by ZIP/region tier)
+- Regional strategy by ZIP and income tier
 
 ---
 
@@ -93,13 +93,12 @@ Reference table used for ZIP → Region → Tier lookup.
 
 - No cancellations or reschedules (yet)
 - All jobs are marked as “Completed”
-- No price variation by region tier (no uplift logic implemented)
+- No price variation by income tier (no uplift logic implemented)
 - No `service_id` generated in this version
 
----
+## ⚙️ Dataset Notes
 
-## 📌 Version
-
-**generate_dataset_v9.py**  
-Last updated: July 2025  
-Maintainer: [Your Name]
+- Fully simulated in Python (based on real job logic)
+- 3,000+ jobs across two years and 40+ ZIPs
+- Nulls added to cost fields to simulate real-world messiness
+- Revenue shown is quoted value unless filter set to "Realized"
