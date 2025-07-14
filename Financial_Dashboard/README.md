@@ -25,7 +25,7 @@ To anchor the dashboard in real business needs, I translated five stakeholder-st
 |-------------------|---------------------------|
 | How is the business performing financially this year? | What were total revenue, total profit, and average margin per job in 2023–2024? |
 | Which services are the most (and least) profitable? | What were total and average profit and margins by service type in 2023–2024? |
-| Are higher-income ZIPs more profitable? | Which ZIP codes generated the highest total profit and job volume in 2023–2024? |
+| Are higher-income ZIP codes more profitable? | Which ZIP codes generated the highest total profit and job volume in 2023–2024? |
 | Where are we making the most money geographically? | What was average profit per job and total revenue by ZIP income tier (High, Mid, Standard)? |
 | Are we experiencing cash flow issues from late payers? | What percent of jobs were paid late or remain unpaid, and what was the average delay by income tier? | 
 ---
@@ -62,7 +62,7 @@ Create bundles or upsells centered on Roof Cleaning to leverage its high margins
 
 ---
 
-## 📍 3. Are higher-income ZIPs more profitable?
+## 📍 3. Are higher-income ZIP codes more profitable?
 ![Top Earning ZIP Codes](../4_Assets/Finance-3.png)  
 **Context:**  
 Knowing which ZIP codes generate the most revenue and profit helps prioritize marketing and crew allocation.
