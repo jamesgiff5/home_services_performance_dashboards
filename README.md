@@ -1,66 +1,67 @@
 # 💧 Home Services Performance Project
 
-A data-driven look at how a service business runs at scale: profitability, scheduling, and operations, modeled from experience.
+A data-driven look at how a service business runs at scale, from pricing and profitability to scheduling and repeat clients. Modeled from real-world experience running field ops.
 
+---
 
 ## 🧭 Project Context
 
-Before transitioning into data analytics, I ran an exterior cleaning business in Central Florida. This project builds on that experience by simulating the kinds of operational and financial questions I faced as an owner, reimagined at the scale of a growing team.
+Before transitioning into data analytics, I ran an exterior cleaning business in Central Florida. This project builds on that experience by simulating the financial and operational questions I dealt with daily.
 
-The dashboards and dataset reflect real-world service patterns: seasonal demand, bundling strategy, workload constraints, and customer retention. I built the data from scratch to support decisions that would matter in a real business, like profitability, capacity, and performance over time.
+The dataset and dashboards reflect real service patterns: seasonal demand, bundling behavior, crew capacity, and client retention. I generated the data from scratch, then scaled it up to simulate a multi-crew operation. Every element was designed to answer decisions that matter, like where margin comes from, when teams are underused, and how repeat work flows back in.
 
-I built a realistic financial and operational dashboard to support smarter decisions around pricing, capacity, and performance.
+All financials are based on quoted job values (not collected payments), which better reflects pricing strategy than cash-based accounting.
 
-## Exec Summary
-All revenue and profit figures are based on quoted job values, not actual payments collected. This better reflects pricing strategy, not cash flow accounting.
+---
 
 ## 📊 Dashboards
 
-| Name         | Description                                     | Link |
-|--------------|-------------------------------------------------|------|
-| Financial    | Revenue, cost, profit, payment behavior         | [View →](./Financial_Dashboard) |
-| Operational  | Crew capacity, job volume, service mix by day   | [View →](./Operational_Dashboard) |
+| Name         | Focus       | Link |
+|--------------|-------------|------|
+| Financial    | Revenue, profit, costs, late payment behavior     | [View →](./Financial_Dashboard) |
+| Operational  | Crew capacity, service mix, repeat client patterns | [View →](./Operational_Dashboard) |
 
 ---
 
 ## 📁 Data & Generation Logic
 
 - 📘 [Dataset Overview](./data/data_description.md)  
-  Covers what each CSV contains and how it was generated
+  Overview of the data tables and structure  
 
-- 🧼 [Data Cleaning Summary](./data/data_cleaning_log.md)  
-  Step-by-step of what was transformed in Power Query (v10)
+- 🧼 [Data Cleaning Log](./data/data_cleaning_log.md)  
+  Step-by-step record of Power Query transformations  
 
 - 🛠️ [Data Generation Script](./data/generate_dataset_v9.py)  
-  Python script that produced the base synthetic data
+  Python script that creates the raw synthetic data  
 
 ---
 
 ## 🏗️ How the Data Was Modeled
 
-This project simulates realistic operations and finance flows for a home services business. Core logic was built in Python, with additional reshaping in Power Query. Imperfections (like payment delays and partial cost data) were added intentionally to reflect messy real-world conditions.
-- Costs were modeled using realistic estimates based on my prior field experience.
-- Some cost assumptions (e.g., crew travel) were simplified to prioritize analytical clarity.
-- The dataset reflects job quotes, not accounting ledgers—this aligns with how service businesses forecast ops performance, not just bookkeep.
+This project simulates a functioning service business with realistic operational and financial logic. The dataset was generated in Python, then reshaped in Power Query to match how real-world teams analyze job-level performance.
+
+Key modeling choices:
+- Direct costs (materials, labor, travel) were estimated from past field experience
+- Overhead costs (equipment, admin, marketing) were excluded to isolate per-job margins
+- Imperfections like payment delays, partial cost tracking, and over-100% margins were kept to reflect common reporting challenges in real operations
+- Metrics are based on job quotes, not cash collections, to match how most service teams forecast and manage performance
 
 ---
 
+## ⚠️ Note on Duplicate Service Entries
 
+Some jobs in the dataset include multiple instances of the same service under a single `job_id` (e.g., two rows labeled “Paver Sealing”). This slightly inflates service-level totals when summed and creates a mismatch between:
 
-### ⚠️ Known Limitation (Simulated Data Behavior)
+- Job-level metrics (based on unique `job_id`s)
+- Service-level charts (which sum all rows, including duplicates)
 
-In this simulated dataset, some jobs contain multiple instances of the same service type under a single job_id (e.g., two or three “Paver Sealing” entries). This inflates service-level totals when summed and creates a mismatch between:
-- Job-level KPIs (like total revenue/profit, which use unique job_ids)
-- Service-level visualizations (which can overstate totals due to duplication)
-
-This issue stems from the data generation logic and wouldn’t typically occur in real operational systems, where service entries are cleaner and linked by line-item IDs or timestamps.
-
-*Rather than re-engineering the dataset at this stage, I preserved the structure and clearly documented the behavior. This mirrors the kind of integrity note you’d find in internal dashboards handling imperfect data sources.*
+This mirrors real-world issues you’d find in CRM exports or line-item billing reports. Rather than rebuild the structure, I flagged it clearly in the dashboards, just like you would in production.
 
 ---
-## 📌 Notes on Versioning
 
-- `generate_dataset_v9.py` produces the base synthetic data as CSVs
-- `home_services_data_v10.xlsx` contains Power Query transformations for analysis and Tableau
-- Tableau dashboards are directly connected to `v10.xlsx` and will break if the file is renamed or moved
-- Earlier versions were iterated to improve operational realism and financial modeling
+## 📌 Versioning Notes
+
+- `generate_dataset_v9.py` creates the raw synthetic data
+- `home_services_data_v10.xlsx` holds the cleaned data via Power Query, used by Tableau
+- Dashboards connect directly to `v10.xlsx` and will break if renamed or moved
+- Earlier versions were iterated to improve operational realism and profit logic. Some imperfections remain, but the focus was on building a useful dataset for analysis and dashboard design, not simulating a perfect accounting system.

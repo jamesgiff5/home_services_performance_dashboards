@@ -1,3 +1,9 @@
+# This script generates a synthetic dataset for a home services business.
+# It simulates real-world fields like service type, date, ZIP code, income tier, pricing, costs, crews, and payment status.
+# Includes logic for margin simulation, repeat client tagging, and light random variation to simulate real-world messiness in dates and costs.
+# Useful for prototyping Tableau dashboards focused on ops, finance, or retention.
+# Output is a CSV file with realistic messiness (nulls, cost gaps) to support downstream data prep steps.
+
 import pandas as pd
 import numpy as np
 import random
