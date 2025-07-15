@@ -1,4 +1,4 @@
-# 💧 Home Services Performance Project
+# 💧 Home Services Performance Dashboards (Data Project)
 
 A data-driven look at how a service business runs at scale, from pricing and profitability to scheduling and repeat clients. Modeled from real-world field ops experience.
 
@@ -6,9 +6,11 @@ A data-driven look at how a service business runs at scale, from pricing and pro
 
 ## 🧭 Project Context
 
-Before transitioning into data analytics, I ran an exterior cleaning business in Central Florida. This project builds on that experience by simulating the financial and operational questions I dealt with daily.
+Before transitioning into data analytics, I ran an exterior cleaning business in Central Florida. This project builds on that experience by simulating the financial and operational questions I dealt with firsthand.
 
-The dataset and dashboards reflect real service patterns: seasonal demand, bundling behavior, crew capacity, and client retention. I generated the data from scratch, then scaled it to simulate a multi-crew operation. Every element was designed to support real decisions, like where margin comes from, when teams are underused, and how repeat work flows back in.
+🧾 [How real-world field experience shaped this dataset →](3_Documentation/real_world_background.md)
+
+The dataset and dashboards reflect real service patterns: seasonal demand, bundling behavior, crew capacity, and client retention. I generated the data from scratch, then scaled it to simulate a multi-crew operation. Every element supports practical decisions, like where margin comes from, when teams are underused, and how repeat work flows back in.
 
 All financials are based on quoted job values (not collected payments), which better reflects pricing strategy than cash-based accounting.
 
@@ -18,8 +20,8 @@ All financials are based on quoted job values (not collected payments), which be
 
 | Name         | Focus       | Link |
 |--------------|-------------|------|
-| Financial    | Revenue, profit, costs, late payment behavior     | [View →](./Financial_Dashboard) |
-| Operational  | Crew capacity, service mix, repeat client patterns | [View →](./Operational_Dashboard) |
+| **Financial**    | Revenue, profit, costs, late payment behavior     | [**View →**](./Financial_Dashboard) |
+| **Operational**  | Crew capacity, service mix, repeat client patterns | [**View →**](./Operational_Dashboard) |
 
 ---
 
