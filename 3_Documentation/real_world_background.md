@@ -55,5 +55,6 @@ These projects required fast decisions, coordination under pressure, and flexibl
 This project isn’t just about building dashboards. It’s about structuring data to answer the kinds of decisions I used to make manually, now backed by analysis.
 
 ## 💧 Project Inspiration
-![Exterior Cleaning Business Pictues](home_services_performance_dashboards/4_Assets/exterior_cleaning_business.png)
+![Exterior Cleaning Business Pictues](../4_Assets/exterior_cleaning_business.png)
+
 *Photos from my exterior cleaning business in Florida, which inspired this project.*
