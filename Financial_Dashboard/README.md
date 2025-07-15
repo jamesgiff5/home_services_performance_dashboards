@@ -1,5 +1,5 @@
 # 🧾 Home Services Financial Dashboard
-![Home Services Financial Dashboard Preview](../4_Assets/Financial_Dashboard.png)
+![Home Services Financial Dashboard Preview](../4_Assets/Financial_Dashboard.gif)
 A finance-focused dashboard project for a simulated home services business. Built to analyze pricing, profit, and payment health, grounded in real-world operations experience.
 
 ---

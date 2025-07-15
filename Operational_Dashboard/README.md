@@ -1,5 +1,5 @@
 # 🧾 Home Services Operational Dashboard  
-![Home Services Operational Dashboard Preview](../4_Assets/Operational_Dashboard.png)  
+![Home Services Operational Dashboard Preview](../4_Assets/Operational_Dashboard.gif)  
 A performance monitoring dashboard for a simulated home services company. Focused on crew efficiency, service demand, and repeat client behavior, modeled after real-world field operations.
 
 ---

@@ -2,7 +2,6 @@
 
 Before transitioning into analytics, I ran an exterior cleaning business in Central Florida. The logic behind pricing, bundling, and seasonality in this dataset isn’t hypothetical. It’s modeled after the decisions I made to grow and manage a real service company.
 
-
 ---
 
 ## 🏠 Residential Strategy and Service Patterns
@@ -55,6 +54,6 @@ These projects required fast decisions, coordination under pressure, and flexibl
 This project isn’t just about building dashboards. It’s about structuring data to answer the kinds of decisions I used to make manually, now backed by analysis.
 
 ## 💧 Project Inspiration
-![Exterior Cleaning Business Pictues](../4_Assets/exterior_cleaning_business.png)
+<img src="https://raw.githubusercontent.com/jamesgiff5/home_services_performance_dashboards/refs/heads/main/4_Assets/exterior_cleaning_business.png" width="500px" />
 
 *Photos from my exterior cleaning business in Florida, which inspired this project.*
