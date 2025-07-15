@@ -120,7 +120,7 @@ This dashboard reveals a financially steady operation with consistent margins ac
 - Consider seasonal pricing or memberships to offset demand dips
 
 ⚠️ *“Realized” mode includes paid jobs only and shows quoted amounts from those jobs. It approximates earned revenue, not exact cash flow.*  
-⚠️ *Margins may slightly exceed 100% in edge cases where costs were recorded for unpaid jobs. These reflect real-world variance and were preserved to maintain operational accuracy.*
+⚠️ *Breakdown percentages (costs + profit) may slightly exceed 100% in rare cases where costs were recorded but payment was not collected. These edge cases reflect real-world margin erosion and were preserved to maintain operational accuracy.*
 
 ---
 

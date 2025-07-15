@@ -1,104 +1,111 @@
 # 🧼 Home Services Business Dataset (Synthetic)
 
-Two-year dataset modeled after a real home services business. Tracks pricing, costs, payments, and geography across thousands of jobs. Structured to support strategic analysis like pricing optimization, workload balancing, and revenue risk from unpaid work.
+Two-year dataset modeled after a real home services business. Tracks pricing, costs, payments, and geography across thousands of jobs. Built to support operational and financial analysis like margin optimization, workload balancing, and revenue risk assessment.
+
+---
 
 ## 📄 jobs_v9.csv
 
-Each row represents a completed job, with aggregated costs and metadata.
+Each row = one completed job, with total costs and metadata.
 
 | Column               | Description                                                              |
 |----------------------|--------------------------------------------------------------------------|
-| `job_id`             | Unique ID for the job                                                    |
+| `job_id`             | Unique identifier for each job                                           |
 | `job_date`           | Service date (weekdays only, holidays excluded)                          |
-| `client_id`          | FK to clients_v9.csv                                                     |
-| `zip_code`           | ZIP where job was performed                                              |
-| `crew_id`            | Crew assigned (1–4, max 3 jobs per day per crew)                         |
-| `job_status`         | Always 'Completed' (placeholder for future status expansion)             |
-| `total_price`        | Sum of all service prices for this job                                   |
-| `material_cost`      | Combined material costs                                                  |
-| `labor_cost`         | Combined labor costs                                                     |
-| `travel_cost`        | Combined travel costs                                                    |
-| `profit`             | Net profit (total - costs)                                               |
+| `client_id`          | Foreign key to `clients_v9.csv`                                          |
+| `zip_code`           | Location of service                                                      |
+| `crew_id`            | Assigned crew (1–4, max 3 jobs/day per crew)                             |
+| `job_status`         | Always 'Completed' (placeholder for future status logic)                 |
+| `total_price`        | Combined quoted value of all services in this job                        |
+| `material_cost`      | Aggregated material costs                                                |
+| `labor_cost`         | Aggregated labor costs                                                   |
+| `travel_cost`        | Aggregated travel costs                                                  |
+| `profit`             | Total price minus costs                                                  |
 | `payment_status`     | Paid / Paid Late / Unpaid                                                |
-| `payment_delay_days` | Days late, if applicable (max capped to year-end)                        |
-| `num_services`       | Number of services performed in this job                                 |
+| `payment_delay_days` | Days late if applicable (capped at year-end)                             |
+| `num_services`       | Number of services included in this job                                  |
 
 ---
 
 ## 📄 services_v9.csv
 
-Each row represents an individual service within a job.
+Each row = one service performed within a job.
 
 | Column           | Description                                               |
 |------------------|-----------------------------------------------------------|
-| `job_id`         | FK to jobs_v9.csv                                         |
-| `service_type`   | One of 7 types (e.g., Roof Cleaning, Window Cleaning)     |
-| `price`          | Quoted price for the service                              |
-| `material_cost`  | Materials used (calculated via service-specific % rules)  |
-| `labor_cost`     | Random labor cost ($50–$200)                              |
-| `travel_cost`    | Random travel cost ($10–$30)                              |
+| `job_id`         | Foreign key to `jobs_v9.csv`                              |
+| `service_type`   | One of 7 core offerings (e.g., Roof Cleaning, House Wash) |
+| `price`          | Quoted price for this individual service                  |
+| `material_cost`  | Estimated based on service-specific rules                 |
+| `labor_cost`     | Randomized between $50–$200                               |
+| `travel_cost`    | Randomized between $10–$30                                |
 | `service_profit` | Net profit per service                                    |
+
+- ⚠️ *Note: Some jobs include duplicate entries for the same service type (e.g., multiple “Roof Cleaning” rows under one job ID). This stems from randomized generation logic and can marginally inflate service-level totals. Insight direction remains valid and was preserved to reflect real-world data quirks.*
 
 ---
 
 ## 📄 clients_v9.csv
 
-Client-level lookup table including geographic and income segmentation details.
+Client-level lookup table including ZIP and income segmentation.
 
-| Column         | Description                              |
-|----------------|------------------------------------------|
-| `client_id`    | Unique client ID                         |
-| `zip_code`     | Where client is located                  |
-| `region_name`  | Mapped region name (e.g., Lake Nona)     |
-| `tier`         | Income tier: High / Mid / Standard, based on ZIP income |
+| Column         | Description                                         |
+|----------------|-----------------------------------------------------|
+| `client_id`    | Unique identifier                                   |
+| `zip_code`     | Client location                                     |
+| `region_name`  | Neighborhood or marketing region                    |
+| `tier`         | ZIP income tier (Standard / Mid / High)             |
 
 ---
 
 ## 📄 zip_regions_v9.csv
 
-Reference table used for ZIP → Region → Tier lookup based on estimated income.
+Lookup for ZIP → Region → Tier mapping used in geographic analysis.
 
-| Column        | Description                                |
-|----------------|--------------------------------------------|
-| `zip_code`     | ZIP code in Central Florida                |
-| `region_name`  | Region or neighborhood (marketing label)   |
-| `tier`         | Income tier: High / Mid / Standard, based on relative household income|
+| Column        | Description                                              |
+|----------------|----------------------------------------------------------|
+| `zip_code`     | ZIP code in Central Florida                              |
+| `region_name`  | Region or neighborhood label used in maps and charts     |
+| `tier`         | Income tier: Standard / Mid / High, based on relative census estimates |
 
 ---
 
 ## 🧪 Generation Logic Summary (v9)
 
 - **Date range**: Jan 1, 2023 – Dec 31, 2024  
-- **Weekdays only**: Saturdays included, Sundays excluded  
-- **US Holidays excluded**: New Year's, July 4th, Thanksgiving, Christmas  
-- **Job volume**: Poisson-distributed (avg ~5 jobs/day)  
-- **Crew capacity**: Max 3 jobs per crew per day  
-- **Service types**: 7 categories with weighted probabilities  
-- **Payment status**: 85% Paid, 12% Paid Late, 3% Unpaid  
-- **Repeat clients**: ~30% chance per job  
-- **Profit logic**: Explicit material, labor, and travel costs per service
+- **Weekdays only**: Includes Saturdays, excludes Sundays  
+- **Holidays excluded**: New Year's, July 4, Thanksgiving, Christmas  
+- **Job volume**: Poisson-distributed (~5 jobs/day average)  
+- **Crew logic**: Max 3 jobs per day per crew  
+- **Services**: 7 types, assigned via weighted probability  
+- **Payment behavior**: 85% Paid, 12% Paid Late, 3% Unpaid  
+- **Repeat clients**: ~30% likelihood modeled per job  
+- **Profit model**: Line-item costs (materials, labor, travel) at service level
 
 ---
 
 ## ✅ Suggested Use Cases
 
-- Pricing & margin optimization  
-- Crew workload & ops planning  
-- Late payment modeling  
-- Regional strategy by ZIP and income tier
+- Analyze profit by service and client tier  
+- Monitor crew load and underutilization  
+- Explore geographic expansion based on ZIP performance  
+- Quantify revenue risk from unpaid or delayed jobs
 
 ---
 
 ## ⚠️ Known Constraints
 
-- No cancellations or reschedules (yet)
-- All jobs are marked as “Completed”
-- No price variation by income tier (no uplift logic implemented)
-- No `service_id` generated in this version
+- No cancellations or reschedules in this version  
+- All jobs marked as “Completed” (status logic placeholder)  
+- Uniform pricing across ZIPs (no income-tier-based uplift yet)  
+- No line-item `service_id` included  
+- Some duplicated service rows per job (documented in cleaning summary)
 
-## ⚙️ Dataset Notes
+---
 
-- Fully simulated in Python (based on real job logic)
-- 3,000+ jobs across two years and 40+ ZIPs
-- Nulls added to cost fields to simulate real-world messiness
-- Revenue shown is quoted value unless filter set to "Realized"
+## 📎 Notes
+
+- All data fully simulated in Python  
+- 3,000+ jobs across two years, 40+ ZIPs  
+- Nulls added intentionally to mimic messy real-world data  
+- Revenue = quoted value unless explicitly filtered to "Realized"

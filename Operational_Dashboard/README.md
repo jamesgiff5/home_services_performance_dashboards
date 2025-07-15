@@ -19,7 +19,7 @@ Built for operations and scheduling teams to:
 
 ## ➡️ From Business Need to SMART Analysis  
 
-| **Business Question**   | **Analytical Question** |
+| **Business Question**  | **Analytical Question** |
 |-------------------|--------------------------|
 | How much work are we doing and how has demand changed over time? | What’s the total job volume over time, by service type or ZIP tier?                |
 | Are we operating efficiently with our crews?           | What’s the average number of jobs per crew per day, and how does it vary by weekday?          |
