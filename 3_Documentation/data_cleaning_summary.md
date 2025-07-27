@@ -1,5 +1,7 @@
 ## 🧼 Data Cleaning Summary
-This file summarizes all field-level cleaning and structural fixes performed prior to Tableau analysis. Higher-level data modeling choices and assumptions (e.g., simulated payment behavior, synthetic profitability logic) are documented in the dashboard-specific README files.
+This file summarizes all field-level cleaning and structural fixes performed prior to Tableau analysis. Higher-level data modeling choices and assumptions (e.g., simulated payment behavior, synthetic profitability logic) are documented in the dashboard-specific README files.  
+
+---
 ### `jobs.csv`
 
 This file drives both dashboards and contains job-level fields used in volume, margin, and repeat behavior analysis.
@@ -16,6 +18,7 @@ This file drives both dashboards and contains job-level fields used in volume, m
   - `realized_total_price`, `realized_job_profit`, `realized_job_profit_pct`
   - Based on paid jobs only, simulating collection-based profitability
 
+---
 ### `services.csv`
 
 This file contains individual line items for each service booked within a job, including pricing, costs, and derived profitability metrics. Used to power service-level analysis and filtering in the dashboards.
@@ -27,6 +30,7 @@ This file contains individual line items for each service booked within a job, i
 - Brought in `is_paid` and `payment_status` from `jobs.csv` to support toggling between quoted and realized profitability
 - Created `realized_service_profit` field to isolate earned profit from only completed, paid jobs
 
+---
 ### `clients.csv`
 This file maps each client to their ZIP code and regional tier classification for segmentation analysis.
 
@@ -34,6 +38,7 @@ This file maps each client to their ZIP code and regional tier classification fo
 - Checked for duplicate `client_id` values — none found
 - Verified `region_name` and `tier` labeling matched values in `zip_regions.csv`
 
+---
 ### `zip_regions.csv`
 
 ZIP-level lookup for assigning income tiers.

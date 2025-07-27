@@ -33,7 +33,7 @@ All financials are based on quoted job values (not collected payments), which be
 - 🧼 [Data Cleaning Summary](./3_Documentation/data_cleaning_summary.md)  
   Outlines Power Query transformations and fixes
 
-- 🛠️ [Data Generation Script](./3_Documentation/generate_dataset_v9.py)  
+- 🛠️ [Data Generation Script](./generate_dataset_v9.py)  
   Python logic that creates the raw synthetic data
 
 ---
