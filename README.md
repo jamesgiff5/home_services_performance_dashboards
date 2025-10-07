@@ -1,4 +1,4 @@
-# 💧 Home Services Performance Dashboards (Data Project)
+# 💧 Home Services Performance Dashboards
 
 A data-driven look at how a service business runs at scale, from pricing and profitability to scheduling and repeat clients. Modeled from real-world field ops experience.
 
