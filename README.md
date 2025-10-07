@@ -50,13 +50,15 @@ Key modeling notes:
 
 ---
 
-## ⚠️ Known Quirk: Service Duplication
-Some jobs include multiple instances of the same service under a single `job_id` (for example, two rows labeled “Paver Sealing”). This slightly inflates service-level totals when summed and creates a mismatch between:
+## ⚠️ Known Quirk: Duplicate Service Lines  
 
-- Job-level metrics (based on unique `job_id`s)
-- Service-level charts (which sum all rows, including duplicates)
+Some jobs include multiple rows of the **same service type** under a single `job_id` (for example, two instances of “Roof Cleaning”).  
+This duplication wasn’t intentional — it likely appeared during the Python data generation process after several revisions to the randomization logic.  
 
-This mirrors the kind of structure you'd see in CRM exports or billing systems. Instead of rebuilding the logic, I flagged the issue clearly in the dashboards to reflect real-world analyst tradeoffs.
+However, the key financial fields (**price, material cost, labor cost, travel cost, and profit**) still **reconcile perfectly** between the job-level and service-level tables.  
+In other words, while a few service names appear more than once per job, **the totals at both levels match exactly**, so the dataset remains accurate for analysis and visualization.  
+
+This minor inconsistency was left in place to reflect the kinds of structural imperfections analysts often encounter in real operational data — without affecting the reliability of the metrics or insights displayed in the Tableau dashboards.  
 
 ---
 
