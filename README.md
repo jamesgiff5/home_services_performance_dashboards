@@ -20,8 +20,8 @@ All financials are based on quoted job values (not collected payments), which be
 
 | Name         | Focus       | Link |
 |--------------|-------------|------|
-| **Financial**    | Revenue, profit, costs, late payment behavior     | [**View →**](./Financial_Dashboard) |
-| **Operational**  | Crew capacity, service mix, repeat client patterns | [**View →**](./Operational_Dashboard) |
+| **Financial**    | Revenue, profit, costs, late payment behavior     | [**View Dashboard & Analysis →**](./Financial_Dashboard) |
+| **Operational**  | Crew capacity, service mix, repeat client patterns | [**View Dashboard & Analysis →**](./Operational_Dashboard) |
 
 ---
 
