@@ -1,7 +1,8 @@
 # 💧 Home Services Performance Dashboards
 
-A data-driven look at how a service business runs at scale, from pricing and profitability to scheduling and repeat clients. Modeled from real-world field ops experience.
+A data-driven look at how a service business runs at scale, from pricing and profitability to scheduling and repeat clients. Modeled from real-world field ops experience.  
 
+![Dashboards Preview](4_Assets/Combined_Dashboards.png)
 ---
 
 ## 🧭 Project Context
