@@ -16,7 +16,7 @@ All financials are based on quoted job values (not collected payments), which be
 
 ---
 
-## 📊 Dashboards
+## 📊 Interactive Dashboards & Insights
 
 | Name         | Focus       | Link |
 |--------------|-------------|------|
