@@ -53,12 +53,12 @@ Key modeling notes:
 ## ⚠️ Known Quirk: Duplicate Service Lines  
 
 Some jobs include multiple rows of the **same service type** under a single `job_id` (for example, two instances of “Roof Cleaning”).  
-This duplication wasn’t intentional — it likely appeared during the Python data generation process after several revisions to the randomization logic.  
+This duplication wasn’t intentional, it likely appeared during the Python data generation process after several revisions to the randomization logic.  
 
 However, the key financial fields (**price, material cost, labor cost, travel cost, and profit**) still **reconcile perfectly** between the job-level and service-level tables.  
 In other words, while a few service names appear more than once per job, **the totals at both levels match exactly**, so the dataset remains accurate for analysis and visualization.  
 
-This minor inconsistency was left in place to reflect the kinds of structural imperfections analysts often encounter in real operational data — without affecting the reliability of the metrics or insights displayed in the Tableau dashboards.  
+This minor inconsistency was left in place to reflect the kinds of structural imperfections analysts often encounter in real operational data, without affecting the reliability of the metrics or insights displayed in the Tableau dashboards.  
 
 ---
 
