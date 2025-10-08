@@ -54,9 +54,11 @@ Key modeling notes:
 ## ⚠️ Known Quirk: Duplicate Service Lines  
 
 Some jobs include multiple rows of the **same service type** under a single `job_id` (for example, two instances of “Roof Cleaning”).  
+
 This duplication wasn’t intentional, it likely appeared during the Python data generation process after several revisions to the randomization logic.  
 
 However, the key financial fields (**price, material cost, labor cost, travel cost, and profit**) still **reconcile perfectly** between the job-level and service-level tables.  
+
 In other words, while a few service names appear more than once per job, **the totals at both levels match exactly**, so the dataset remains accurate for analysis and visualization.  
 
 This minor inconsistency was left in place to reflect the kinds of structural imperfections analysts often encounter in real operational data, without affecting the reliability of the metrics or insights displayed in the Tableau dashboards.  
@@ -67,5 +69,5 @@ This minor inconsistency was left in place to reflect the kinds of structural im
 
 - `generate_dataset_v9.py` creates the raw synthetic data
 - `home_services_data_v10.xlsx` holds the cleaned data via Power Query, used by Tableau
-- Dashboards connect directly to `v10.xlsx` and will break if renamed or moved
-- Earlier versions were iterated to improve operational realism and profit logic. Some imperfections remain, but the goal was to build a useful dataset for analysis and dashboarding, not simulate a perfect accounting system.
+- Dashboards connect directly to `home_services_data_v10.xlsx` and will break if renamed or moved
+- Earlier versions were refined to improve operational realism and pricing logic. A few small inconsistencies remain from earlier iterations, but they do not affect any financial calculations or analytical outcomes.
