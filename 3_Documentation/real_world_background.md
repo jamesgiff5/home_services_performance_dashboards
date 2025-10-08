@@ -29,7 +29,7 @@ While this dataset focuses on residential work, I also managed large commercial 
 
 | **Job Description**  | **Scope**   | **Duration** | **Key Challenge**  |
 |-----------------|------|--------------|------------------|
-| Breezeway Cleaning     | 30 building community    | 6 days       | Manage water intrusion into units with poor weather seals          |
+| Breezeway Cleaning     | 30-building community    | 6 days       | Manage water intrusion into units with poor weather seals          |
 | Building + Breezeway Wash     | 11 buildings, 3 stories    | 6 days       | Prevent chemical overspray onto cars                               |
 | Breezeway Cleaning            | 12 buildings, 3 stories    | 3 days       | Clean grime without damaging painted breezeway floors              |
 | Parking Garage Cleaning       | 5-story garage, full surface cleaning     | 5 days       | Extremely limited water access, had to improvise supply            |
@@ -56,6 +56,5 @@ This project isn’t just about building dashboards. It’s about structuring da
 ---
 
 ## 💧 Project Inspiration
-<img src="https://raw.githubusercontent.com/jamesgiff5/home_services_performance_dashboards/refs/heads/main/4_Assets/exterior_cleaning_business.png" width="500px" />
-
+![Project photos](../4_Assets/Work_projects_sample.png)  
 *Photos from my exterior cleaning business in Florida, which inspired this project.*
