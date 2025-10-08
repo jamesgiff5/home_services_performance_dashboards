@@ -41,7 +41,7 @@ Each row = one service performed within a job.
 | `travel_cost`    | Randomized between $10–$30                                |
 | `service_profit` | Net profit per service                                    |
 
-- ⚠️ *Note: Some jobs include duplicate entries for the same service type (e.g., multiple “Roof Cleaning” rows under one job ID). This stems from randomized generation logic and can marginally inflate service-level totals. Insight direction remains valid and was preserved to reflect real-world data quirks.*
+- ⚠️ *Note: A few jobs contain duplicate rows for the same service type due to the randomization process. This can slightly increase record counts at the service level, but all job-level financials and reconciliations remain correct.*
 
 ---
 

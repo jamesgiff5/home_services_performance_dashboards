@@ -13,7 +13,7 @@ Before transitioning into data analytics, I ran an exterior cleaning business in
 
 The dataset and dashboards reflect real service patterns: seasonal demand, bundling behavior, crew capacity, and client retention. I generated the data from scratch, then scaled it to simulate a multi-crew operation. Every element supports practical decisions, like where margin comes from, when teams are underused, and how repeat work flows back in.
 
-All financials are based on quoted job values (not collected payments), which better reflects pricing strategy than cash-based accounting.
+Financials default to quoted job values, which better reflect pricing strategy. However, a dashboard parameter allows switching to received payments for comparison.  
 
 ---
 
@@ -41,7 +41,7 @@ All financials are based on quoted job values (not collected payments), which be
 
 ## 🏗️ How the Data Was Modeled
 
-This project simulates a functioning service business with realistic operational and financial logic. The dataset was generated in Python, then reshaped in Power Query to reflect how real teams analyze job-level performance.
+This project simulates a functioning service business with realistic operational and financial logic. The dataset was generated in Python, then reshaped in Excel Power Query to reflect how real teams analyze job-level performance.
 
 Key modeling notes:
 - Direct costs (materials, labor, travel) were estimated from past field experience

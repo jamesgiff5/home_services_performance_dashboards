@@ -1,5 +1,5 @@
 ## 🧼 Data Cleaning Summary
-This file summarizes all field-level cleaning and structural fixes performed prior to Tableau analysis. Higher-level data modeling choices and assumptions (e.g., simulated payment behavior, synthetic profitability logic) are documented in the dashboard-specific README files.  
+This file summarizes all field-level cleaning and structural fixes performed in Excel prior to Tableau analysis. Higher-level data modeling choices and assumptions (e.g., simulated payment behavior, synthetic profitability logic) are documented in the dashboard-specific README files.  
 
 ---
 ### `jobs.csv`
