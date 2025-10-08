@@ -27,15 +27,13 @@ The repeat rate logic in the dataset reflects actual client behavior I tracked m
 
 While this dataset focuses on residential work, I also managed large commercial projects that required deeper planning, logistics, and adaptability.
 
-| **Job Description**  | **Scope**   | **Revenue** | **Duration** | **Key Challenge**  |
+| **Job Description**  | **Scope**   | **Duration** | **Key Challenge**  |
 |-----------------|-----------|-------------|--------------|------------------|
-| Breezeway Cleaning     | 30 buildings           | $10,000     | 6 days       | Manage water intrusion into units with poor weather seals          |
-| Building + Breezeway Wash     | 11 buildings, 3 stories| $20,000     | 6 days       | Prevent chemical overspray onto cars                               |
-| Breezeway Cleaning            | 12 buildings, 3 stories| $7,200      | 3 days       | Clean grime without damaging painted breezeway floors              |
-| Parking Garage Cleaning       | 5 floors               | $11,000     | 5 days       | Extremely limited water access, had to improvise supply            |
-| Building Soft Wash            | 2 buildings, 5 stories | $15,000     | 4 days       | Reached height limits of equipment                                 |
-
-![Commercial Jobs Snapshot](home_services_performance_dashboards/4_Assets/Real_World_Commercial.png)
+| Breezeway Cleaning     | 30 building community    | 6 days       | Manage water intrusion into units with poor weather seals          |
+| Building + Breezeway Wash     | 11 buildings, 3 stories    | 6 days       | Prevent chemical overspray onto cars                               |
+| Breezeway Cleaning            | 12 buildings, 3 stories    | 3 days       | Clean grime without damaging painted breezeway floors              |
+| Parking Garage Cleaning       | 5-story garage, full surface cleaning     | 5 days       | Extremely limited water access, had to improvise supply            |
+| Building Soft Wash            | 2 buildings, 5 stories     | 4 days       | Reached height limits of equipment                                 |
 
 *These projects were completed during my final year in business, and the experience directly shaped how I modeled this dataset.*
 
