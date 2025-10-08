@@ -28,7 +28,7 @@ The repeat rate logic in the dataset reflects actual client behavior I tracked m
 While this dataset focuses on residential work, I also managed large commercial projects that required deeper planning, logistics, and adaptability.
 
 | **Job Description**  | **Scope**   | **Duration** | **Key Challenge**  |
-|-----------------|-----------|-------------|--------------|------------------|
+|-----------------|------|--------------|------------------|
 | Breezeway Cleaning     | 30 building community    | 6 days       | Manage water intrusion into units with poor weather seals          |
 | Building + Breezeway Wash     | 11 buildings, 3 stories    | 6 days       | Prevent chemical overspray onto cars                               |
 | Breezeway Cleaning            | 12 buildings, 3 stories    | 3 days       | Clean grime without damaging painted breezeway floors              |
